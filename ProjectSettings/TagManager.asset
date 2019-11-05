@@ -15,10 +15,10 @@ TagManager:
   - 
   - Hands
   - Gabbable_Handler
-  - 
-  - 
-  - 
-  - 
+  - Doors
+  - Player
+  - Room_Furniture
+  - Drawer
   - 
   - 
   - 
