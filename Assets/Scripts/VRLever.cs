@@ -18,21 +18,23 @@ public class VRLever : MonoBehaviour
     {
         Vector3 currentRotation =  this.transform.localEulerAngles;
 
-        this.transform.localEulerAngles = new Vector3(START_X_ROTATION_POS, currentRotation.y, currentRotation.z);
+        this.transform.localRotation = Quaternion.Euler(START_X_ROTATION_POS - 1, 0, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("Level: " + this.transform.localEulerAngles.x);
+
         if (this.transform.localEulerAngles.x >= START_X_ROTATION_POS)
         {
             Vector3 currentRotation = this.transform.localEulerAngles;
-            this.transform.localEulerAngles = new Vector3(START_X_ROTATION_POS, currentRotation.y, currentRotation.z);
+            this.transform.localRotation = Quaternion.Euler(START_X_ROTATION_POS - 1, 0, 0);
         }
         else if (this.transform.localEulerAngles.x <= END_X_ROTATION_POS)
         {
             Vector3 currentRotation = this.transform.localEulerAngles;
-            this.transform.localEulerAngles = new Vector3(END_X_ROTATION_POS, currentRotation.y, currentRotation.z);
+            this.transform.localRotation = Quaternion.Euler(END_X_ROTATION_POS + 1, 0, 0);
         }
     }
 }

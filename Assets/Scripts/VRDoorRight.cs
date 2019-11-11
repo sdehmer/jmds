@@ -20,7 +20,7 @@ public class VRDoorRight : MonoBehaviour
         END_Y_ROTATION_POS = 250;
 
         Vector3 currentRotation =  this.transform.localEulerAngles;
-        this.transform.localEulerAngles = new Vector3(currentRotation.x, START_Y_ROTATION_POS, currentRotation.z);
+        this.transform.localRotation = Quaternion.Euler(currentRotation.x, START_Y_ROTATION_POS - 1, currentRotation.z);
     }
 
     // Update is called once per frame

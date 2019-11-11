@@ -18,7 +18,7 @@ public class VRDrawer : MonoBehaviour
         // Set Drawer to Start-Position (closed in cupboard)
         Vector3 currentPos = this.transform.localPosition;
         
-        this.transform.localPosition = new Vector3(currentPos.x, currentPos.y, START_Z_POS);
+        this.transform.localPosition = new Vector3(currentPos.x, currentPos.y, START_Z_POS + 0.001f);
         //GetComponent<Transform>().localPosition = new Vector3(currentPos.x, currentPos.y, START_Z_POS);
     }
 
