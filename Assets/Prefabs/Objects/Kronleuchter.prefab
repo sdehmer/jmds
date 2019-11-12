@@ -30,7 +30,7 @@ Transform:
   m_LocalScale: {x: 14.042816, y: 14.042816, z: 14.042815}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4308020576311270813
 MeshFilter:
@@ -108,7 +108,7 @@ Transform:
   m_LocalScale: {x: 14.042815, y: 14.042815, z: 14.042815}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &128642084510720460
 MeshFilter:
@@ -186,7 +186,7 @@ Transform:
   m_LocalScale: {x: 14.042814, y: 14.042814, z: 14.042815}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6603436742812226036
 MeshFilter:
@@ -342,7 +342,7 @@ Transform:
   m_LocalScale: {x: 29.415903, y: 29.415903, z: 29.415903}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5010417996678336567
 MeshFilter:
@@ -420,7 +420,7 @@ Transform:
   m_LocalScale: {x: 33.363518, y: 33.363518, z: 33.363518}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7260439349330817816
 MeshFilter:
@@ -480,7 +480,7 @@ GameObject:
   - component: {fileID: 264900950453690698}
   - component: {fileID: 1818385088973810544}
   m_Layer: 0
-  m_Name: Kronleuchter.003
+  m_Name: Ring 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -498,7 +498,7 @@ Transform:
   m_LocalScale: {x: 16.083755, y: 16.083755, z: 16.083755}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &264900950453690698
 MeshFilter:
@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 4827456975484883648}
   - component: {fileID: 4724730733249083248}
   m_Layer: 0
-  m_Name: Kronleuchter
+  m_Name: Halterungskette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -576,7 +576,7 @@ Transform:
   m_LocalScale: {x: 6.297053, y: 6.297053, z: 6.297053}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4827456975484883648
 MeshFilter:
@@ -651,7 +651,7 @@ Transform:
   m_LocalPosition: {x: -4, y: 3.6, z: 1}
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children:
-  - {fileID: 3042363989938230147}
+  - {fileID: 3516456276064615823}
   - {fileID: 7905180811029660967}
   - {fileID: 36137587562378827}
   - {fileID: 5672466012983769128}
@@ -660,7 +660,6 @@ Transform:
   - {fileID: 8725070132050824529}
   - {fileID: 4156451866195830039}
   - {fileID: 6233325774684822261}
-  - {fileID: 7478897553892706569}
   - {fileID: 8443718265269325808}
   - {fileID: 6833207285488421156}
   - {fileID: 1722996577776511614}
@@ -674,13 +673,13 @@ Transform:
   - {fileID: 6268811008979954397}
   - {fileID: 2951270206734200596}
   - {fileID: 4329820322930561866}
+  - {fileID: 7478897553892706569}
   - {fileID: 3514631146903421923}
   - {fileID: 5731378928471567568}
   - {fileID: 4958701320605772478}
-  - {fileID: 3516456276064615823}
-  - {fileID: 3905839600125595892}
-  - {fileID: 4375470457372731311}
+  - {fileID: 3042363989938230147}
   - {fileID: 4335551319895270103}
+  - {fileID: 4375470457372731311}
   - {fileID: 7938262146568358387}
   - {fileID: 8998206141242862875}
   m_Father: {fileID: 0}
@@ -698,7 +697,7 @@ GameObject:
   - component: {fileID: 4333094652499034141}
   - component: {fileID: 5049077639086248869}
   m_Layer: 0
-  m_Name: Planetenhalter.001
+  m_Name: Halter Sonne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -712,11 +711,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3266845692039622820}
   m_LocalRotation: {x: 1, y: 0, z: -0, w: 0.0000385801}
-  m_LocalPosition: {x: 0.0000011920929, y: -0.6962613, z: -0.000033795834}
+  m_LocalPosition: {x: 0, y: -0.6962613, z: -0.000033795834}
   m_LocalScale: {x: 18.168745, y: 18.168745, z: 18.168745}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 26
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4333094652499034141
 MeshFilter:
@@ -789,12 +788,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3346291789857415123}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.00000006429353, y: -2.3523593, z: 6.299544}
-  m_LocalScale: {x: 78.77314, y: 78.77314, z: 78.77314}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.9349145, y: 1.9349141, z: 1.9349141}
   m_Children: []
-  m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 27
+  m_Father: {fileID: 4375470457372731311}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5717433157913376513
 MeshFilter:
@@ -872,7 +871,7 @@ Transform:
   m_LocalScale: {x: 14.042816, y: 14.042816, z: 14.042815}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6908489823316584799
 MeshFilter:
@@ -1010,7 +1009,7 @@ GameObject:
   - component: {fileID: 7587568660295724019}
   - component: {fileID: 9018315771422689747}
   m_Layer: 0
-  m_Name: Halter Uranus.001
+  m_Name: Halter Uranus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1184,7 +1183,7 @@ Transform:
   m_LocalScale: {x: 14.042814, y: 14.042814, z: 14.042815}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3117792991331758442
 MeshFilter:
@@ -1244,7 +1243,7 @@ GameObject:
   - component: {fileID: 8080572037583738210}
   - component: {fileID: 7729131343825918322}
   m_Layer: 0
-  m_Name: Kronleuchter.002
+  m_Name: Ring 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1262,7 +1261,7 @@ Transform:
   m_LocalScale: {x: 10.580117, y: 10.580117, z: 10.580117}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8080572037583738210
 MeshFilter:
@@ -1340,7 +1339,7 @@ Transform:
   m_LocalScale: {x: 14.042815, y: 14.042815, z: 14.042815}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7436212905397430870
 MeshFilter:
@@ -1574,7 +1573,7 @@ Transform:
   m_LocalScale: {x: 30.332163, y: 30.332163, z: 30.332163}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 0
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1431821638214919611
 MeshFilter:
@@ -1648,11 +1647,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5024389279737960968}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: -2.2841034, z: 0}
+  m_LocalPosition: {x: 0, y: -2.2841034, z: 0}
   m_LocalScale: {x: 128.29674, y: 128.29674, z: 128.29674}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 29
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1743902005450719704
 MeshFilter:
@@ -1808,7 +1807,7 @@ Transform:
   m_LocalScale: {x: 14.042814, y: 14.042814, z: 14.042815}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1337644989307343681
 MeshFilter:
@@ -1886,7 +1885,7 @@ Transform:
   m_LocalScale: {x: 59.966904, y: 59.966904, z: 59.966904}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 9
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6369521301139136090
 MeshFilter:
@@ -2042,7 +2041,7 @@ Transform:
   m_LocalScale: {x: 14.042814, y: 14.042814, z: 14.042815}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6532738410757269657
 MeshFilter:
@@ -2258,7 +2257,7 @@ GameObject:
   - component: {fileID: 7592129785378750790}
   - component: {fileID: 440775840290972110}
   m_Layer: 0
-  m_Name: Kronleuchter.001
+  m_Name: Ring 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2276,7 +2275,7 @@ Transform:
   m_LocalScale: {x: 6.297053, y: 6.297053, z: 6.297053}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7592129785378750790
 MeshFilter:
@@ -2336,7 +2335,7 @@ GameObject:
   - component: {fileID: 3136302652534126280}
   - component: {fileID: 2242332236449809844}
   m_Layer: 0
-  m_Name: Kronleuchter.004
+  m_Name: Ring 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2354,7 +2353,7 @@ Transform:
   m_LocalScale: {x: 20.886908, y: 20.886908, z: 20.886908}
   m_Children: []
   m_Father: {fileID: 2056120859096952274}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3136302652534126280
 MeshFilter:
@@ -2508,7 +2507,8 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.00000006429353, y: -2.3523593, z: 6.299544}
   m_LocalScale: {x: 40.71143, y: 40.71143, z: 40.71143}
-  m_Children: []
+  m_Children:
+  - {fileID: 3905839600125595892}
   m_Father: {fileID: 2056120859096952274}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
