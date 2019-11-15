@@ -1178,6 +1178,10 @@ PrefabInstance:
       propertyPath: _trackingOriginType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: expandMixedRealityCapturePropertySheet
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Layer
       value: 11
@@ -1210,6 +1214,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: SnapRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: EnableRotation
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
 --- !u!1 &218258193 stripped
@@ -1230,53 +1242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &218258195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218258193}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf162022e230bb745ab2ec48cd357f9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CameraRig: {fileID: 218258194}
-  CurrentDistance: 0
-  EnableFadeout: 0
-  EnableCollision: 0
-  DynamicHeight: 0
-  MaxFade: 1
-  FadeMinDistance: 0.25
-  FadeMaxDistance: 0.35
---- !u!114 &218258196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218258193}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0950df82e7936c84983497630bde5b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Acceleration: 0.1
-  Damping: 0.3
-  BackAndSideDampen: 0.5
-  JumpForce: 0.3
-  RotationAmount: 1.5
-  RotationRatchet: 45
-  SnapRotation: 1
-  FixedSpeedSteps: 0
-  HmdResetsY: 1
-  HmdRotatesY: 1
-  GravityModifier: 0.379
-  useProfileData: 1
-  EnableLinearMovement: 1
-  EnableRotation: 1
-  RotationEitherThumbstick: 0
 --- !u!143 &218258197
 CharacterController:
   m_ObjectHideFlags: 0
@@ -10841,6 +10806,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2696690055545990657, guid: 9fa846aeab38ba94ca54bc45c7c4a12b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7219832552826799361, guid: 9fa846aeab38ba94ca54bc45c7c4a12b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9fa846aeab38ba94ca54bc45c7c4a12b, type: 3}
@@ -13581,17 +13551,17 @@ PrefabInstance:
     - target: {fileID: 2524366457387128616, guid: 93f00feb95423ca4fbe7454b2643d010,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.812
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2524366457387128616, guid: 93f00feb95423ca4fbe7454b2643d010,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.532
+      value: 2.55
       objectReference: {fileID: 0}
     - target: {fileID: 2524366457387128616, guid: 93f00feb95423ca4fbe7454b2643d010,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.98
+      value: -3.07
       objectReference: {fileID: 0}
     - target: {fileID: 2524366457387128616, guid: 93f00feb95423ca4fbe7454b2643d010,
         type: 3}
@@ -13652,6 +13622,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 1064718301098403909, guid: d861c9e27f6b54f4386c084bfc48a925,
+        type: 3}
+      propertyPath: m_snapPosition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1064718301098403909, guid: d861c9e27f6b54f4386c084bfc48a925,
+        type: 3}
+      propertyPath: m_snapOrientation
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9056697068660326393, guid: d861c9e27f6b54f4386c084bfc48a925,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13705,16 +13685,6 @@ PrefabInstance:
     - target: {fileID: 9056697068660326393, guid: d861c9e27f6b54f4386c084bfc48a925,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1064718301098403909, guid: d861c9e27f6b54f4386c084bfc48a925,
-        type: 3}
-      propertyPath: m_snapPosition
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1064718301098403909, guid: d861c9e27f6b54f4386c084bfc48a925,
-        type: 3}
-      propertyPath: m_snapOrientation
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
