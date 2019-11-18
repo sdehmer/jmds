@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 4737945880125632656}
   - component: {fileID: 3407698166365904362}
   m_Layer: 0
-  m_Name: Kamin_191117
+  m_Name: Kamin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
