@@ -33,6 +33,156 @@ ModelImporter:
   - first:
       74: 8492489065359766207
     second: Holz.001|chimenea_02|Take 001|BaseLayer
+  - first:
+      74: 5788921553959856430
+    second: "Holz|Ger\xFCst|Ger\xFCst|chimenea_01|Take 001|BaseLayer|Ger\xFCst|chimenea"
+  - first:
+      74: -3244907653177754417
+    second: "Holz|Ger\xFCst|Ger\xFCst|chimenea_02|Take 001|BaseLayer|Ger\xFCst|chimenea"
+  - first:
+      74: 3868602801046472278
+    second: Holz|Holz.001|Holz.001|chimenea_01|Take 001|BaseLayer|Holz.001|chime
+  - first:
+      74: -9053596746390309287
+    second: Holz|Holz.001|Holz.001|chimenea_02|Take 001|BaseLayer|Holz.001|chime
+  - first:
+      74: 8153588477517646239
+    second: Holz|Holz.002|Holz.002|chimenea_01|Take 001|BaseLayer|Holz.002|chime
+  - first:
+      74: 7065156904771089141
+    second: Holz|Holz.002|Holz.002|chimenea_02|Take 001|BaseLayer|Holz.002|chime
+  - first:
+      74: 5363602957197635686
+    second: 'Holz|Holz|Holz|chimenea_01|Take 001|BaseLayer|Holz|chimenea_01|Take '
+  - first:
+      74: -9153941017688689690
+    second: 'Holz|Holz|Holz|chimenea_02|Take 001|BaseLayer|Holz|chimenea_02|Take '
+  - first:
+      74: 1477528918697280475
+    second: Holz|Kamin|Kamin|chimenea_01|Take 001|BaseLayer|Kamin|chimenea_01|Ta
+  - first:
+      74: 3252847070614277770
+    second: Holz|Kamin|Kamin|chimenea_02|Take 001|BaseLayer|Kamin|chimenea_02|Ta
+  - first:
+      74: 8315759056832225378
+    second: "Kamin|Ger\xFCst|Ger\xFCst|chimenea_01|Take 001|BaseLayer|Ger\xFCst|chimenea"
+  - first:
+      74: 2725739434244486609
+    second: "Kamin|Ger\xFCst|Ger\xFCst|chimenea_02|Take 001|BaseLayer|Ger\xFCst|chimenea"
+  - first:
+      74: 6943871067810059693
+    second: Kamin|Holz.001|Holz.001|chimenea_01|Take 001|BaseLayer|Holz.001|chime
+  - first:
+      74: -5491039999203774342
+    second: Kamin|Holz.001|Holz.001|chimenea_02|Take 001|BaseLayer|Holz.001|chime
+  - first:
+      74: -5314823501031647163
+    second: Kamin|Holz.002|Holz.002|chimenea_01|Take 001|BaseLayer|Holz.002|chime
+  - first:
+      74: -2298505582185768204
+    second: Kamin|Holz.002|Holz.002|chimenea_02|Take 001|BaseLayer|Holz.002|chime
+  - first:
+      74: -5490215369803227323
+    second: 'Kamin|Holz|Holz|chimenea_01|Take 001|BaseLayer|Holz|chimenea_01|Take '
+  - first:
+      74: 2748588889502983281
+    second: 'Kamin|Holz|Holz|chimenea_02|Take 001|BaseLayer|Holz|chimenea_02|Take '
+  - first:
+      74: 1509784651945498865
+    second: Kamin|Kamin|Kamin|chimenea_01|Take 001|BaseLayer|Kamin|chimenea_01|Ta
+  - first:
+      74: -4677354768120876663
+    second: Kamin|Kamin|Kamin|chimenea_02|Take 001|BaseLayer|Kamin|chimenea_02|Ta
+  - first:
+      74: 5213449496860044757
+    second: "Ger\xFCst|Ger\xFCst|Ger\xFCst|chimenea_01|Take 001|BaseLayer|Ger\xFCst|chimenea"
+  - first:
+      74: -3482172217479629177
+    second: "Ger\xFCst|Ger\xFCst|Ger\xFCst|chimenea_02|Take 001|BaseLayer|Ger\xFCst|chimenea"
+  - first:
+      74: -8574588317964998111
+    second: "Ger\xFCst|Holz.001|Holz.001|chimenea_01|Take 001|BaseLayer|Holz.001|chime"
+  - first:
+      74: 7590594077038271012
+    second: "Ger\xFCst|Holz.001|Holz.001|chimenea_02|Take 001|BaseLayer|Holz.001|chime"
+  - first:
+      74: 5521049507725892281
+    second: "Ger\xFCst|Holz.002|Holz.002|chimenea_01|Take 001|BaseLayer|Holz.002|chime"
+  - first:
+      74: -383518710482585901
+    second: "Ger\xFCst|Holz.002|Holz.002|chimenea_02|Take 001|BaseLayer|Holz.002|chime"
+  - first:
+      74: 5012101227995415507
+    second: "Ger\xFCst|Holz|Holz|chimenea_01|Take 001|BaseLayer|Holz|chimenea_01|Take "
+  - first:
+      74: 7837758887730306072
+    second: "Ger\xFCst|Holz|Holz|chimenea_02|Take 001|BaseLayer|Holz|chimenea_02|Take "
+  - first:
+      74: 8084929978769740531
+    second: "Ger\xFCst|Kamin|Kamin|chimenea_01|Take 001|BaseLayer|Kamin|chimenea_01|Ta"
+  - first:
+      74: -8287014258253367170
+    second: "Ger\xFCst|Kamin|Kamin|chimenea_02|Take 001|BaseLayer|Kamin|chimenea_02|Ta"
+  - first:
+      74: 6713970836336437892
+    second: "Holz.002|Ger\xFCst|Ger\xFCst|chimenea_01|Take 001|BaseLayer|Ger\xFCst|chimenea"
+  - first:
+      74: -5300015280261469906
+    second: "Holz.002|Ger\xFCst|Ger\xFCst|chimenea_02|Take 001|BaseLayer|Ger\xFCst|chimenea"
+  - first:
+      74: 58052934956726357
+    second: Holz.002|Holz.001|Holz.001|chimenea_01|Take 001|BaseLayer|Holz.001|chime
+  - first:
+      74: -5097679149517615166
+    second: Holz.002|Holz.001|Holz.001|chimenea_02|Take 001|BaseLayer|Holz.001|chime
+  - first:
+      74: 5083016835763877392
+    second: Holz.002|Holz.002|Holz.002|chimenea_01|Take 001|BaseLayer|Holz.002|chime
+  - first:
+      74: 9206353641458798759
+    second: Holz.002|Holz.002|Holz.002|chimenea_02|Take 001|BaseLayer|Holz.002|chime
+  - first:
+      74: -5469971614674850560
+    second: 'Holz.002|Holz|Holz|chimenea_01|Take 001|BaseLayer|Holz|chimenea_01|Take '
+  - first:
+      74: 9095462217276746587
+    second: 'Holz.002|Holz|Holz|chimenea_02|Take 001|BaseLayer|Holz|chimenea_02|Take '
+  - first:
+      74: -2200534556064891216
+    second: Holz.002|Kamin|Kamin|chimenea_01|Take 001|BaseLayer|Kamin|chimenea_01|Ta
+  - first:
+      74: 7543768885505035968
+    second: Holz.002|Kamin|Kamin|chimenea_02|Take 001|BaseLayer|Kamin|chimenea_02|Ta
+  - first:
+      74: 409559582875164313
+    second: "Holz.001|Ger\xFCst|Ger\xFCst|chimenea_01|Take 001|BaseLayer|Ger\xFCst|chimenea"
+  - first:
+      74: 7550618244561473447
+    second: "Holz.001|Ger\xFCst|Ger\xFCst|chimenea_02|Take 001|BaseLayer|Ger\xFCst|chimenea"
+  - first:
+      74: 196834841205301485
+    second: Holz.001|Holz.001|Holz.001|chimenea_01|Take 001|BaseLayer|Holz.001|chime
+  - first:
+      74: -5170343015181361898
+    second: Holz.001|Holz.001|Holz.001|chimenea_02|Take 001|BaseLayer|Holz.001|chime
+  - first:
+      74: 6775996257530149185
+    second: Holz.001|Holz.002|Holz.002|chimenea_01|Take 001|BaseLayer|Holz.002|chime
+  - first:
+      74: -3409958628939069648
+    second: Holz.001|Holz.002|Holz.002|chimenea_02|Take 001|BaseLayer|Holz.002|chime
+  - first:
+      74: -2807417460930576310
+    second: 'Holz.001|Holz|Holz|chimenea_01|Take 001|BaseLayer|Holz|chimenea_01|Take '
+  - first:
+      74: 7590203345195623496
+    second: 'Holz.001|Holz|Holz|chimenea_02|Take 001|BaseLayer|Holz|chimenea_02|Take '
+  - first:
+      74: -9123770374274910087
+    second: Holz.001|Kamin|Kamin|chimenea_01|Take 001|BaseLayer|Kamin|chimenea_01|Ta
+  - first:
+      74: -673698667453079041
+    second: Holz.001|Kamin|Kamin|chimenea_02|Take 001|BaseLayer|Kamin|chimenea_02|Ta
   externalObjects: {}
   materials:
     importMaterials: 1
