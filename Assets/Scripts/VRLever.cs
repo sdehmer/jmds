@@ -6,9 +6,9 @@ public class VRLever : MonoBehaviour
 {
 
 
-    public float START_X_ROTATION_POS = 30.0f;
+    public float START_X_ROTATION_POS = 320.0f;
 
-    public float END_X_ROTATION_POS = -30.0f;
+    public float END_X_ROTATION_POS = 40.0f;
     
 
 
@@ -16,9 +16,9 @@ public class VRLever : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Vector3 currentRotation =  this.transform.localEulerAngles;
+        //Vector3 currentRotation =  this.transform.localEulerAngles;
 
-        this.transform.localRotation = Quaternion.Euler(START_X_ROTATION_POS - 1, 0, 0);
+        this.transform.localRotation = Quaternion.Euler(START_X_ROTATION_POS + 1, 0, 0);
     }
 
     // Update is called once per frame
@@ -28,13 +28,11 @@ public class VRLever : MonoBehaviour
 
         if (this.transform.localEulerAngles.x >= START_X_ROTATION_POS)
         {
-            Vector3 currentRotation = this.transform.localEulerAngles;
-            this.transform.localRotation = Quaternion.Euler(START_X_ROTATION_POS - 1, 0, 0);
+            Debug.Log("Disabled");
         }
-        else if (this.transform.localEulerAngles.x <= END_X_ROTATION_POS)
+        else if (this.transform.localEulerAngles.x >= END_X_ROTATION_POS) 
         {
-            Vector3 currentRotation = this.transform.localEulerAngles;
-            this.transform.localRotation = Quaternion.Euler(END_X_ROTATION_POS + 1, 0, 0);
+            Debug.Log("Enabled");
         }
     }
 }
