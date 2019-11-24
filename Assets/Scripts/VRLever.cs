@@ -5,32 +5,38 @@ using UnityEngine;
 public class VRLever : MonoBehaviour
 {
 
+    public float START_Z_POS = -4.29f;
 
-    public float START_X_ROTATION_POS = 320.0f;
-
-    public float END_X_ROTATION_POS = 40.0f;
-    
+    public float END_Z_POS = -8.81f;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        //Vector3 currentRotation =  this.transform.localEulerAngles;
-
-        this.transform.localRotation = Quaternion.Euler(START_X_ROTATION_POS + 1, 0, 0);
+        Vector3 currentPos = this.transform.localPosition;
+        this.transform.localPosition = new Vector3(currentPos.x, currentPos.y, START_Z_POS + 0.001f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Level: " + this.transform.localEulerAngles.x);
+        if (this.transform.localPosition.z >= START_Z_POS)
+        {
+            Vector3 currentPos = this.transform.localPosition;
+            this.transform.localPosition = new Vector3(currentPos.x, currentPos.y, START_Z_POS - 0.001f);
+        }
+        else if (this.transform.localPosition.z <= END_Z_POS)
+        {
+            Vector3 currentPos = this.transform.localPosition;
+            this.transform.localPosition = new Vector3(currentPos.x, currentPos.y, END_Z_POS + 0.001f);
+        }
 
-        if (this.transform.localEulerAngles.x >= START_X_ROTATION_POS)
+        if (this.transform.localPosition.z >= START_Z_POS - 0.5)
         {
             Debug.Log("Disabled");
         }
-        else if (this.transform.localEulerAngles.x >= END_X_ROTATION_POS) 
+        else if (this.transform.localPosition.z <= END_Z_POS + 0.5) 
         {
             Debug.Log("Enabled");
         }
