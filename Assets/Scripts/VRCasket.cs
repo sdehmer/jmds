@@ -42,9 +42,17 @@ public class VRCasket : MonoBehaviour
         if (gameObject.CompareTag("Casket_Key"))
         {
             CasketKey.SetActive(true);
-            Destroy(gameObject);
 
-            //CasketLid.useLimits = false;
+            OVRGrabbable grabbable = gameObject.GetComponent<OVRGrabbable>();
+            MeshRenderer renderer = gameObject.GetComponent<MeshRenderer>();
+
+            renderer.enabled = false;
+            grabbable.enabled = false;
+
+            grabbable.grabbedBy.ForceRelease(grabbable);
+            
+            gameObject.SetActive(false);
+            Destroy(gameObject, 10.0f);
 
             LidHandler.SetActive(true);
         }
