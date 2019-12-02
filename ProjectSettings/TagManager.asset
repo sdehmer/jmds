@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Casket_Key
+  - Planet_Venus
+  - Planet_Mercury
+  - Planet_Earth
+  - Hammer
   layers:
   - Default
   - TransparentFX

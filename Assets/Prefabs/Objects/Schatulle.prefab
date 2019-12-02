@@ -124,7 +124,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.005, z: -0.00867}
   m_Axis: {x: 0, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.3790002, y: 1.0434134, z: -4.0205135}
+  m_ConnectedAnchor: {x: -3.6793818, y: 0.52556425, z: -4.5342364}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -194,8 +194,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.24742302, y: 0.3680372, z: 0.2681577}
-  m_Center: {x: -0.049581524, y: 0.29438195, z: -0.2079886}
+  m_Size: {x: 0.19117354, y: 0.2720084, z: 0.2141471}
+  m_Center: {x: 0.011984109, y: 0.2550574, z: -0.67482924}
 --- !u!114 &6553268073627172316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +359,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0005170703, y: 0.013597348, z: 0.0046100547}
   m_Center: {x: 0.009741458, y: -0.0003894037, z: 0.0023050278}
+--- !u!65 &6553268073846176577
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6201119117081494765}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02926678, y: 0.06807366, z: 0.0049999994}
+  m_Center: {x: -0.0021338677, y: -0.02321151, z: 0}
+--- !u!114 &6553268073846176582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6201119117081494765}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &6553268073664386215
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,36 +514,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 6553268074927083583}
---- !u!65 &6553268073846176577
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6201119117081494765}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.02926678, y: 0.06807366, z: 0.0049999994}
-  m_Center: {x: -0.0021338677, y: -0.02321151, z: 0}
---- !u!114 &6553268073846176582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6201119117081494765}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 0
-  m_snapOrientation: 0
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
 --- !u!1 &6553268074927083580
 GameObject:
   m_ObjectHideFlags: 0
