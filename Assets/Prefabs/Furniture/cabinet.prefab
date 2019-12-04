@@ -1707,8 +1707,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 44.305176, y: 49.841476, z: 3.2624514}
-  m_Center: {x: -22.035059, y: 0.0000077460945, z: 0.000013362013}
+  m_Size: {x: 44.24644, y: 49.841476, z: 3.2624514}
+  m_Center: {x: -22.00569, y: 0.0000077460945, z: 0.000013362013}
 --- !u!153 &5653612107015176329
 ConfigurableJoint:
   m_ObjectHideFlags: 0
@@ -1815,8 +1815,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.2449894, y: 49.841476, z: 1.7746952}
-  m_Center: {x: -44.759903, y: 0.0000077460945, z: -0.74386513}
+  m_Size: {x: 2.1884513, y: 49.841476, z: 1.6704637}
+  m_Center: {x: -44.731636, y: 0.0000077460945, z: -0.7959809}
 --- !u!114 &5653612107015176331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2871,18 +2871,18 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5670118704466329147}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0, y: -2.2, z: 0.86}
+  m_Anchor: {x: 0, y: -2.2, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -6.580222, y: 2.4466524, z: -3.4795244}
+  m_ConnectedAnchor: {x: -6.580222, y: 2.4466524, z: -3.4629805}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
-  m_XMotion: 2
-  m_YMotion: 2
-  m_ZMotion: 2
-  m_AngularXMotion: 2
+  m_XMotion: 0
+  m_YMotion: 0
+  m_ZMotion: 0
+  m_AngularXMotion: 0
   m_AngularYMotion: 2
-  m_AngularZMotion: 2
+  m_AngularZMotion: 0
   m_LinearLimitSpring:
     spring: 0
     damper: 0
@@ -3107,10 +3107,10 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5670118704466329149}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0, y: -4, z: 0.86}
+  m_Anchor: {x: 0, y: -4, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -8.0936575, y: 2.4120247, z: -3.4795246}
+  m_ConnectedAnchor: {x: -8.0936575, y: 2.4120247, z: -3.462981}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -3440,8 +3440,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.2359283, y: 49.840885, z: 1.4375764}
-  m_Center: {x: 43.106552, y: 0.000006196876, z: 1.0101033}
+  m_Size: {x: 2.2359145, y: 49.840885, z: 1.3252391}
+  m_Center: {x: 43.10655, y: 0.000006196876, z: 0.95393467}
 --- !u!114 &5653612107015176334
 MonoBehaviour:
   m_ObjectHideFlags: 0

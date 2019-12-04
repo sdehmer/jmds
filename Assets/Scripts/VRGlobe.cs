@@ -6,7 +6,6 @@ public class VRGlobe : MonoBehaviour
 {
 
     public GameObject earth;
-    public GameObject globe;
 
 
 
@@ -32,7 +31,9 @@ public class VRGlobe : MonoBehaviour
             FixedJoint fixedJoint = earth.GetComponent<FixedJoint>();
             fixedJoint.connectedBody = null;
 
-            Destroy(fixedJoint, 10.0f);
+            Debug.Log("DESTROY");
+
+            Destroy(fixedJoint);
         }
     }
 }
