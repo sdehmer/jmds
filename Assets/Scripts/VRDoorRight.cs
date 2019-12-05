@@ -6,9 +6,9 @@ public class VRDoorRight : MonoBehaviour
 {
 
 
-    public float START_Y_ROTATION_POS = 0.0f;
+    public float START_Y_ROTATION_POS = 359.0f;
 
-    public float END_Y_ROTATION_POS = -110.0f;
+    public float END_Y_ROTATION_POS = 220.0f;
     
 
 
@@ -16,8 +16,8 @@ public class VRDoorRight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        START_Y_ROTATION_POS = 359;
-        END_Y_ROTATION_POS = 250;
+        //START_Y_ROTATION_POS = 359;
+        //END_Y_ROTATION_POS = 220;
 
         Vector3 currentRotation =  this.transform.localEulerAngles;
         this.transform.localRotation = Quaternion.Euler(currentRotation.x, START_Y_ROTATION_POS - 1, currentRotation.z);

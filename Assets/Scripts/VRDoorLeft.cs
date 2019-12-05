@@ -8,7 +8,7 @@ public class VRDoorLeft : MonoBehaviour
 
     public float START_Y_ROTATION_POS = 1.0f;
 
-    public float END_Y_ROTATION_POS = 110.0f;
+    public float END_Y_ROTATION_POS = 140.0f;
     
 
 
