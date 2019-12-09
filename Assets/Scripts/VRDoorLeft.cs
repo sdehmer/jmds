@@ -17,44 +17,32 @@ public class VRDoorLeft : MonoBehaviour
     void Start()
     {
         Vector3 currentRotation =  this.transform.localEulerAngles;
-
-        this.transform.localRotation = Quaternion.Euler(currentRotation.x, START_Y_ROTATION_POS + 1, currentRotation.z);
+        this.transform.localRotation = Quaternion.Euler(currentRotation.x, START_Y_ROTATION_POS + 0.5f, currentRotation.z);
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        //this.transform.localRotation = Quaternion.Euler(0, 0, 45);
+        Rigidbody rigidbody = this.GetComponent<Rigidbody>();
 
         if (this.transform.localEulerAngles.y < START_Y_ROTATION_POS || this.transform.localEulerAngles.y > 355)
         {
             Vector3 currentRotation = this.transform.localEulerAngles;
-            this.transform.localRotation = Quaternion.Euler(currentRotation.x, START_Y_ROTATION_POS + 1, currentRotation.z);
+            this.transform.localRotation = Quaternion.Euler(currentRotation.x, START_Y_ROTATION_POS + 0.5f, currentRotation.z);
+            
+            rigidbody.isKinematic = true;
+            rigidbody.velocity = Vector3.zero;
+
         }
         else if (this.transform.localEulerAngles.y > END_Y_ROTATION_POS)
         {
             Vector3 currentRotation = this.transform.localEulerAngles;
-            this.transform.localRotation = Quaternion.Euler(currentRotation.x, END_Y_ROTATION_POS - 1, currentRotation.z);
+            this.transform.localRotation = Quaternion.Euler(currentRotation.x, END_Y_ROTATION_POS - 0.5f, currentRotation.z);
+            
+            rigidbody.isKinematic = true;
+            rigidbody.velocity = Vector3.zero;
         }
 
-
-
-        /*
-        if (this.transform.localEulerAngles.y > START_Y_ROTATION_POS && this.transform.localEulerAngles.y < END_Y_ROTATION_POS)
-        {
-
-        }
-        else if (this.transform.localEulerAngles.y < START_Y_ROTATION_POS || this.transform.localEulerAngles.y > 355)
-        {
-            Vector3 currentRotation = this.transform.localEulerAngles;
-            this.transform.localEulerAngles = new Vector3(currentRotation.x, START_Y_ROTATION_POS, currentRotation.z);
-        }
-        else if (this.transform.localEulerAngles.y > END_Y_ROTATION_POS)
-        {
-            Vector3 currentRotation = this.transform.localEulerAngles;
-            this.transform.localEulerAngles = new Vector3(currentRotation.x, END_Y_ROTATION_POS, currentRotation.z);
-        }
-        */
+        rigidbody.isKinematic = false;
     }
 }

@@ -16,9 +16,6 @@ public class VRDoorRight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //START_Y_ROTATION_POS = 359;
-        //END_Y_ROTATION_POS = 220;
-
         Vector3 currentRotation =  this.transform.localEulerAngles;
         this.transform.localRotation = Quaternion.Euler(currentRotation.x, START_Y_ROTATION_POS - 1, currentRotation.z);
     }
@@ -26,37 +23,25 @@ public class VRDoorRight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Rigidbody rigidbody = this.GetComponent<Rigidbody>();
+
         if (this.transform.localEulerAngles.y > START_Y_ROTATION_POS || this.transform.localEulerAngles.y < 5)
         {
             Vector3 currentRotation = this.transform.localEulerAngles;
             this.transform.localRotation = Quaternion.Euler(currentRotation.x, START_Y_ROTATION_POS - 1, currentRotation.z);
+            
+            rigidbody.isKinematic = true;
+            rigidbody.velocity = Vector3.zero;
         }
         else if (this.transform.localEulerAngles.y < END_Y_ROTATION_POS)
         {
             Vector3 currentRotation = this.transform.localEulerAngles;
             this.transform.localRotation = Quaternion.Euler(currentRotation.x, END_Y_ROTATION_POS + 1, currentRotation.z);
+
+            rigidbody.isKinematic = true;
+            rigidbody.velocity = Vector3.zero;
         }
 
-
-        /*
-        if (this.transform.localEulerAngles.y < START_Y_ROTATION_POS && this.transform.localEulerAngles.y > END_Y_ROTATION_POS)
-        {
-            Debug.Log("In Area");
-        }
-        else if (this.transform.localEulerAngles.y > START_Y_ROTATION_POS || this.transform.localEulerAngles.y < 5)
-        {
-            Debug.Log("TOO CLOSED");
-            Vector3 currentRotation = this.transform.localEulerAngles;
-            this.transform.localEulerAngles = new Vector3(currentRotation.x, START_Y_ROTATION_POS, currentRotation.z);
-            Debug.Log("SET TO: " + START_Y_ROTATION_POS);
-        }
-        else if (this.transform.localEulerAngles.y < END_Y_ROTATION_POS)
-        {
-            Debug.Log("TOO OPENED");
-            Vector3 currentRotation = this.transform.localEulerAngles;
-            this.transform.localEulerAngles = new Vector3(currentRotation.x, END_Y_ROTATION_POS, currentRotation.z);
-            Debug.Log("SET TO: " + END_Y_ROTATION_POS);
-        }
-        */
+        rigidbody.isKinematic = false;
     }
 }
