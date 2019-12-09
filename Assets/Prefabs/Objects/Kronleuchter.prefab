@@ -1,5 +1,127 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &989313720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 989313721}
+  - component: {fileID: 989313722}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &989313721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989313720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1602256370}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &989313722
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989313720}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 2
+  m_Color: {r: 1, g: 0.8745098, b: 0.45882353, a: 1}
+  m_Intensity: 1
+  m_Range: 500
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1602256369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1602256370}
+  m_Layer: 0
+  m_Name: Licht
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1602256370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602256369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 989313721}
+  m_Father: {fileID: 4335551319895270103}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &439114102752291973
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,7 +134,7 @@ GameObject:
   - component: {fileID: 4308020576311270813}
   - component: {fileID: 8303686366183460327}
   m_Layer: 0
-  m_Name: Kette Uranus
+  m_Name: Chain Uranus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +212,7 @@ GameObject:
   - component: {fileID: 128642084510720460}
   - component: {fileID: 3333697215804791011}
   m_Layer: 0
-  m_Name: Kette Jupiter
+  m_Name: Chain Jupiter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -168,7 +290,7 @@ GameObject:
   - component: {fileID: 6603436742812226036}
   - component: {fileID: 5340417053404843026}
   m_Layer: 0
-  m_Name: Kette Erde
+  m_Name: Chain Earth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,7 +368,7 @@ GameObject:
   - component: {fileID: 6140994930499925874}
   - component: {fileID: 2886389826990944345}
   m_Layer: 0
-  m_Name: Halter Saturn
+  m_Name: Holder Saturn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -312,6 +434,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!135 &2850488333422058684
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937667238048427657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012225908
+  m_Center: {x: -0.0000000020262727, y: -0.00027894683, z: 1.3026564e-19}
+--- !u!114 &842295739149147835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937667238048427657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ec74d01b107ef4da9dbdc669b90d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TAG_Planet: Planet_Venus
 --- !u!1 &2305842232912753354
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,7 +550,7 @@ GameObject:
   - component: {fileID: 4827456975484883648}
   - component: {fileID: 4724730733249083248}
   m_Layer: 0
-  m_Name: Halterungskette
+  m_Name: Holding Chain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -477,6 +625,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2056120859096952274}
+  - component: {fileID: 1234522069}
   m_Layer: 0
   m_Name: Kronleuchter
   m_TagString: Untagged
@@ -493,7 +642,7 @@ Transform:
   m_GameObject: {fileID: 3085976057995091905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4, y: 3.6, z: 1}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children:
   - {fileID: 3516456276064615823}
   - {fileID: 7905180811029660967}
@@ -529,6 +678,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1234522069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3085976057995091905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e0dae3ceec23741b924a428220f390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetVenus: {fileID: 1937667238048427657}
+  planetMercury: {fileID: 6773893765765901920}
+  planetEarth: {fileID: 4985497535891573602}
 --- !u!1 &3266845692039622820
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,7 +705,7 @@ GameObject:
   - component: {fileID: 4333094652499034141}
   - component: {fileID: 5049077639086248869}
   m_Layer: 0
-  m_Name: Halter Sonne
+  m_Name: Holder Sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -619,7 +783,7 @@ GameObject:
   - component: {fileID: 6908489823316584799}
   - component: {fileID: 2735337676472678392}
   m_Layer: 0
-  m_Name: Kette Neptun
+  m_Name: Chain Neptune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -697,7 +861,7 @@ GameObject:
   - component: {fileID: 2533939399170540593}
   - component: {fileID: 3719372176403840111}
   m_Layer: 0
-  m_Name: Halter Erde
+  m_Name: Holder Earth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -775,7 +939,7 @@ GameObject:
   - component: {fileID: 7587568660295724019}
   - component: {fileID: 9018315771422689747}
   m_Layer: 0
-  m_Name: Halter Uranus
+  m_Name: Holder Uranus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -853,7 +1017,7 @@ GameObject:
   - component: {fileID: 8576475040931636473}
   - component: {fileID: 7535565020962894063}
   m_Layer: 0
-  m_Name: Halter Mars
+  m_Name: Holder Mars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -931,7 +1095,7 @@ GameObject:
   - component: {fileID: 3117792991331758442}
   - component: {fileID: 812137494988258319}
   m_Layer: 0
-  m_Name: Kette Mars
+  m_Name: Chain Mars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1087,7 +1251,7 @@ GameObject:
   - component: {fileID: 7436212905397430870}
   - component: {fileID: 6108236536762953414}
   m_Layer: 0
-  m_Name: Kette Saturn
+  m_Name: Chain Saturn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1165,7 +1329,7 @@ GameObject:
   - component: {fileID: 8240507160093805111}
   - component: {fileID: 5423655891329366688}
   m_Layer: 0
-  m_Name: Halter Jupiter
+  m_Name: Holder Jupiter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1231,6 +1395,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!135 &8608359463762915928
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985497535891573602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.011938664
+  m_Center: {x: 0.000893834, y: -0.0010448304, z: 0.000000029475963}
+--- !u!114 &3564683419730103313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985497535891573602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ec74d01b107ef4da9dbdc669b90d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TAG_Planet: Planet_Earth
 --- !u!1 &5589479378930415092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,7 +1433,7 @@ GameObject:
   - component: {fileID: 1337644989307343681}
   - component: {fileID: 9207231766041572774}
   m_Layer: 0
-  m_Name: Kette Venus
+  m_Name: Chain Venus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1321,7 +1511,7 @@ GameObject:
   - component: {fileID: 3808577266062567166}
   - component: {fileID: 7825297559475880835}
   m_Layer: 0
-  m_Name: Halter Merkur
+  m_Name: Holder Mercury
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1399,7 +1589,7 @@ GameObject:
   - component: {fileID: 6532738410757269657}
   - component: {fileID: 5985995593953275756}
   m_Layer: 0
-  m_Name: Kette Merkur
+  m_Name: Chain Mercury
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1465,6 +1655,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!135 &2069734480473610403
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773893765765901920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.012205426
+  m_Center: {x: 0.00104361, y: -0.0011618079, z: 0.000000059483135}
+--- !u!114 &7052653132555180610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773893765765901920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ec74d01b107ef4da9dbdc669b90d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TAG_Planet: Planet_Mercury
 --- !u!1 &6996586506052252858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,7 +1693,7 @@ GameObject:
   - component: {fileID: 1414976817060605013}
   - component: {fileID: 4585188845429644234}
   m_Layer: 0
-  m_Name: Halter Neptun
+  m_Name: Holder Neptune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1711,7 +1927,7 @@ GameObject:
   - component: {fileID: 1099815048149385149}
   - component: {fileID: 8937135561171888328}
   m_Layer: 0
-  m_Name: Halter Venus
+  m_Name: Holder Venus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1787,7 +2003,17 @@ PrefabInstance:
     - target: {fileID: 843187007510813622, guid: aea97f172e40a0d4b935e0a2c7b084d3,
         type: 3}
       propertyPath: m_Name
-      value: Venus
+      value: Planet Venus
+      objectReference: {fileID: 0}
+    - target: {fileID: 843187007510813622, guid: aea97f172e40a0d4b935e0a2c7b084d3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 843187007510813622, guid: aea97f172e40a0d4b935e0a2c7b084d3,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7903936935333533732, guid: aea97f172e40a0d4b935e0a2c7b084d3,
         type: 3}
@@ -1844,8 +2070,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2150143692998790689, guid: aea97f172e40a0d4b935e0a2c7b084d3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea97f172e40a0d4b935e0a2c7b084d3, type: 3}
+--- !u!1 &1937667238048427657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 843187007510813622, guid: aea97f172e40a0d4b935e0a2c7b084d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1247602699644564799}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8998206141242862875 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7903936935333533732, guid: aea97f172e40a0d4b935e0a2c7b084d3,
@@ -1862,7 +2099,7 @@ PrefabInstance:
     - target: {fileID: 8377714714451199649, guid: 97ecd7dbbd24700449620e70e5c718b0,
         type: 3}
       propertyPath: m_Name
-      value: Saturn
+      value: Planet Saturn
       objectReference: {fileID: 0}
     - target: {fileID: 2490354297409404219, guid: 97ecd7dbbd24700449620e70e5c718b0,
         type: 3}
@@ -1937,7 +2174,7 @@ PrefabInstance:
     - target: {fileID: 6494906846517636045, guid: 4a352f5e9431a0a4cb5f792132fd76bb,
         type: 3}
       propertyPath: m_Name
-      value: Sonne
+      value: Planet Sun
       objectReference: {fileID: 0}
     - target: {fileID: 2572193946125275922, guid: 4a352f5e9431a0a4cb5f792132fd76bb,
         type: 3}
@@ -1947,7 +2184,7 @@ PrefabInstance:
     - target: {fileID: 2572193946125275922, guid: 4a352f5e9431a0a4cb5f792132fd76bb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2841034
+      value: -2.17
       objectReference: {fileID: 0}
     - target: {fileID: 2572193946125275922, guid: 4a352f5e9431a0a4cb5f792132fd76bb,
         type: 3}
@@ -2012,7 +2249,7 @@ PrefabInstance:
     - target: {fileID: 7657172497177765796, guid: a54e9fed163eab74c809bd65eca8eebe,
         type: 3}
       propertyPath: m_Name
-      value: Mars
+      value: Planet Mars
       objectReference: {fileID: 0}
     - target: {fileID: 1299361575201289634, guid: a54e9fed163eab74c809bd65eca8eebe,
         type: 3}
@@ -2087,7 +2324,7 @@ PrefabInstance:
     - target: {fileID: 3969848762560618213, guid: 40dcb65dcf03da149888994b44c0ca75,
         type: 3}
       propertyPath: m_Name
-      value: Uranus
+      value: Planet Uranus
       objectReference: {fileID: 0}
     - target: {fileID: 5019783478535916957, guid: 40dcb65dcf03da149888994b44c0ca75,
         type: 3}
@@ -2162,7 +2399,7 @@ PrefabInstance:
     - target: {fileID: 2106588984383620575, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
       propertyPath: m_Name
-      value: Jupiter
+      value: Planet Jupiter
       objectReference: {fileID: 0}
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
@@ -2237,7 +2474,7 @@ PrefabInstance:
     - target: {fileID: 1181336420316729827, guid: e910bafc77266f5448302d955b367502,
         type: 3}
       propertyPath: m_Name
-      value: Neptun
+      value: Planet Neptune
       objectReference: {fileID: 0}
     - target: {fileID: 1601935494666122717, guid: e910bafc77266f5448302d955b367502,
         type: 3}
@@ -2312,7 +2549,12 @@ PrefabInstance:
     - target: {fileID: 3522390921778864894, guid: 4a89b567663e54042884e104285260bc,
         type: 3}
       propertyPath: m_Name
-      value: Erde
+      value: Planet Earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522390921778864894, guid: 4a89b567663e54042884e104285260bc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911518649104923167, guid: 4a89b567663e54042884e104285260bc,
         type: 3}
@@ -2369,8 +2611,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6112693020372058947, guid: 4a89b567663e54042884e104285260bc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a89b567663e54042884e104285260bc, type: 3}
+--- !u!1 &4985497535891573602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3522390921778864894, guid: 4a89b567663e54042884e104285260bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8489848770255104412}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3042363989938230147 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6911518649104923167, guid: 4a89b567663e54042884e104285260bc,
@@ -2387,7 +2640,12 @@ PrefabInstance:
     - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
         type: 3}
       propertyPath: m_Name
-      value: Merkur
+      value: Planet Mercury
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3601327358242927081, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
         type: 3}
@@ -2444,8 +2702,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7854634718339087509, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cc55a3612b9bf148b8dfe888d669d1c, type: 3}
+--- !u!1 &6773893765765901920 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+    type: 3}
+  m_PrefabInstance: {fileID: 9111783573006048569}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5731378928471567568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3601327358242927081, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
