@@ -25,15 +25,25 @@ public class VRDrawer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(this.transform.localPosition.z <= START_Z_POS)
+        Rigidbody rigidbody = this.GetComponent<Rigidbody>();
+
+        if (this.transform.localPosition.z <= START_Z_POS)
         {
             Vector3 currentPos = this.transform.localPosition;
             this.transform.localPosition = new Vector3(currentPos.x, currentPos.y, START_Z_POS + 0.001f);
+
+            rigidbody.isKinematic = true;
+            rigidbody.velocity = Vector3.zero;
         }
         else if (this.transform.localPosition.z >= END_Z_POS)
         {
             Vector3 currentPos = this.transform.localPosition;
             this.transform.localPosition = new Vector3(currentPos.x, currentPos.y, END_Z_POS - 0.001f);
+
+            rigidbody.isKinematic = true;
+            rigidbody.velocity = Vector3.zero;
         }
+
+        rigidbody.isKinematic = false;
     }
 }
