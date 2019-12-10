@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3311973680127717988}
+  - component: {fileID: 6187747351168882662}
+  - component: {fileID: 6614213225598714405}
   m_Layer: 0
   m_Name: Lupe
   m_TagString: Untagged
@@ -33,6 +35,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6187747351168882662
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994293483315282039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25971645, y: 0.18136379, z: 2.7152343}
+  m_Center: {x: 0.004250993, y: 0.0100785475, z: -2.5319428}
+--- !u!65 &6614213225598714405
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994293483315282039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.02, y: 0.1813638, z: 2.1089597}
+  m_Center: {x: 0.004250993, y: 0.01007855, z: -0.11719694}
 --- !u!1 &2853671324450455531
 GameObject:
   m_ObjectHideFlags: 0
