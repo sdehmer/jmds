@@ -28,7 +28,8 @@ public class TwoHandFollowPhysics : MonoBehaviour
         {
             parent.useGravity = false;
 
-            Vector3 middlePos = targetLeft.transform.position + targetRight.transform.position;
+            //Vector3 middlePos = targetLeft.transform.position + targetRight.transform.position;
+            Vector3 middlePos = targetLeft.grabbedBy.transform.position + targetRight.grabbedBy.transform.position;
             middlePos = middlePos / 2;
             
             rb.MovePosition(middlePos);
