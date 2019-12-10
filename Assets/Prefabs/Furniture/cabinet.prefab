@@ -1829,8 +1829,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fc064892c6efd439bb944c0e96e237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  START_Y_ROTATION_POS: 0
-  END_Y_ROTATION_POS: -110
+  START_Y_ROTATION_POS: 359
+  END_Y_ROTATION_POS: 220
 --- !u!1 &5670118704466329139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3206,8 +3206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fc064892c6efd439bb944c0e96e237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  START_Y_ROTATION_POS: 0
-  END_Y_ROTATION_POS: -110
+  START_Y_ROTATION_POS: 359
+  END_Y_ROTATION_POS: 220
 --- !u!65 &5653612107015176325
 BoxCollider:
   m_ObjectHideFlags: 0
