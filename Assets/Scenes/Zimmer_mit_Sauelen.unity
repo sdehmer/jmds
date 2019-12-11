@@ -2282,21 +2282,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097343918}
     m_Modifications:
-    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Mercury
-      objectReference: {fileID: 0}
-    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
-        type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Planet_Mercury
-      objectReference: {fileID: 0}
     - target: {fileID: 3601327358242927081, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2366,6 +2351,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.819777
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Mercury
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Planet_Mercury
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cc55a3612b9bf148b8dfe888d669d1c, type: 3}
@@ -20489,17 +20489,17 @@ PrefabInstance:
     - target: {fileID: 1878054428438115705, guid: 3f658c23ea4382541aa14d6f6bff97be,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.5004454
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: 1878054428438115705, guid: 3f658c23ea4382541aa14d6f6bff97be,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.49885392
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1878054428438115705, guid: 3f658c23ea4382541aa14d6f6bff97be,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.49948192
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1878054428438115705, guid: 3f658c23ea4382541aa14d6f6bff97be,
         type: 3}
