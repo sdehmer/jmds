@@ -1852,6 +1852,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 5492081862218380917}
+  mainObject: {fileID: 6669142556565516403}
 --- !u!1 &3842251969917272627
 GameObject:
   m_ObjectHideFlags: 0
@@ -2604,6 +2605,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 30174083872463355}
+  mainObject: {fileID: 1978131967720588857}
 --- !u!1 &5622650996800021722
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,6 +3494,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 5183035490026114901}
+  mainObject: {fileID: 8770686518340306255}
 --- !u!1 &7545189142286281953
 GameObject:
   m_ObjectHideFlags: 0
@@ -3957,6 +3960,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 297649295171920373}
+  mainObject: {fileID: 8629876565545000485}
 --- !u!1 &8413804643665891318
 GameObject:
   m_ObjectHideFlags: 0

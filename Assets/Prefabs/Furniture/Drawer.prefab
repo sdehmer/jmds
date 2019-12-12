@@ -663,6 +663,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 7827678481295189569}
+  mainObject: {fileID: 4344324905424580701}
 --- !u!1 &3235066059465368081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,6 +1014,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 6793906635588678692}
+  mainObject: {fileID: 1450549826352869864}
 --- !u!1 &3628279125720701090
 GameObject:
   m_ObjectHideFlags: 0

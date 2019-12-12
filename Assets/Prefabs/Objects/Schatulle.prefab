@@ -642,6 +642,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 6553268073664386214}
+  mainObject: {fileID: 6553268073627172304}
 --- !u!1001 &6553268073846176580
 PrefabInstance:
   m_ObjectHideFlags: 0

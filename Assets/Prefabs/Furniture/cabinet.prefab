@@ -253,6 +253,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 1984974493945846005}
+  mainObject: {fileID: 5653612107015176425}
 --- !u!1 &1984974494292372605
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,6 +507,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 1984974494456849541}
+  mainObject: {fileID: 5653612107015176336}
 --- !u!1 &1984974494456849540
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,6 +886,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 1984974495820317522}
+  mainObject: {fileID: 5653612107015176422}
 --- !u!1 &1984974495455065694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,6 +1140,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 1984974494292372594}
+  mainObject: {fileID: 5653612107015176330}
 --- !u!1 &1984974495577521922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,6 +1269,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 1984974495455065695}
+  mainObject: {fileID: 5653612107015176342}
 --- !u!1 &1984974495810378932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,6 +1398,7 @@ MonoBehaviour:
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
   handlerTransform: {fileID: 1984974495091514665}
+  mainObject: {fileID: 5653612107015176340}
 --- !u!1 &1984974495820317533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1851,6 +1857,7 @@ GameObject:
   - component: {fileID: 5653612107015176421}
   - component: {fileID: 5653612107015176420}
   - component: {fileID: 5653612107015176423}
+  - component: {fileID: 2275499749970739354}
   m_Layer: 13
   m_Name: drawer1
   m_TagString: Untagged
@@ -2037,7 +2044,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5670118704466329139}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2476127539ebfe48a440a1e954b9303, type: 3}
   m_Name: 
@@ -2122,6 +2129,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2915523, y: 8.389337, z: 39.919594}
   m_Center: {x: -19.229837, y: 0.16674243, z: 20.002518}
+--- !u!114 &2275499749970739354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5670118704466329139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fefc382a58da0e45a00e6e627eb9baf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  START_Z_POS: -20.47519
+  END_Z_POS: -51.94
 --- !u!1 &5670118704466329141
 GameObject:
   m_ObjectHideFlags: 0
@@ -2142,6 +2163,7 @@ GameObject:
   - component: {fileID: 5653612107015176428}
   - component: {fileID: 5653612107015176431}
   - component: {fileID: 5653612107015176430}
+  - component: {fileID: 7153875866660322849}
   m_Layer: 13
   m_Name: drawer2
   m_TagString: Untagged
@@ -2328,12 +2350,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5670118704466329141}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2476127539ebfe48a440a1e954b9303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  START_Z_POS: -20.47519
+  START_Z_POS: -20.47518
   END_Z_POS: -51.94
 --- !u!65 &5653612107015176419
 BoxCollider:
@@ -2413,6 +2435,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2915523, y: 8.389337, z: 39.919594}
   m_Center: {x: -19.229837, y: 0.16674243, z: 20.002518}
+--- !u!114 &7153875866660322849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5670118704466329141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fefc382a58da0e45a00e6e627eb9baf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  START_Z_POS: -20.47519
+  END_Z_POS: -51.94
 --- !u!1 &5670118704466329143
 GameObject:
   m_ObjectHideFlags: 0
