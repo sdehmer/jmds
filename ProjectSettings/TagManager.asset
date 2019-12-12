@@ -9,6 +9,7 @@ TagManager:
   - Planet_Mercury
   - Planet_Earth
   - Hammer
+  - Planet_Neptune
   layers:
   - Default
   - TransparentFX
