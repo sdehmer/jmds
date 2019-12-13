@@ -61,7 +61,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BlendOp: 0
-    - _BumpScale: 1
+    - _BumpScale: 1.5
     - _CameraFadingEnabled: 0
     - _CameraFarFadeDistance: 2
     - _CameraNearFadeDistance: 1
@@ -75,7 +75,7 @@ Material:
     - _DstBlend: 0
     - _EmissionEnabled: 0
     - _FlipbookMode: 0
-    - _GlossMapScale: 0.4
+    - _GlossMapScale: 0.6
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _LightingEnabled: 1
