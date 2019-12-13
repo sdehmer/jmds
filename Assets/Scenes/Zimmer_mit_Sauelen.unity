@@ -2140,21 +2140,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097343918}
     m_Modifications:
-    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Mercury
-      objectReference: {fileID: 0}
-    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
-        type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
-        type: 3}
-      propertyPath: m_TagString
-      value: Planet_Mercury
-      objectReference: {fileID: 0}
     - target: {fileID: 3601327358242927081, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2224,6 +2209,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.819777
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Mercury
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Planet_Mercury
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cc55a3612b9bf148b8dfe888d669d1c, type: 3}
@@ -11606,16 +11606,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1097343918}
     m_Modifications:
-    - target: {fileID: 1181336420316729827, guid: e910bafc77266f5448302d955b367502,
-        type: 3}
-      propertyPath: m_Name
-      value: Neptune
-      objectReference: {fileID: 0}
-    - target: {fileID: 1181336420316729827, guid: e910bafc77266f5448302d955b367502,
-        type: 3}
-      propertyPath: m_TagString
-      value: Planet_Neptune
-      objectReference: {fileID: 0}
     - target: {fileID: 1601935494666122717, guid: e910bafc77266f5448302d955b367502,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11685,6 +11675,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 12.513524
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181336420316729827, guid: e910bafc77266f5448302d955b367502,
+        type: 3}
+      propertyPath: m_Name
+      value: Neptune
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181336420316729827, guid: e910bafc77266f5448302d955b367502,
+        type: 3}
+      propertyPath: m_TagString
+      value: Planet_Neptune
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e910bafc77266f5448302d955b367502, type: 3}
@@ -24595,6 +24595,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7494536820715365186, guid: ebf94e96b315cda4da530874e3824462,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4da092ee445fd5c449d26eafde6cebc0, type: 2}
+    - target: {fileID: 3914565732757639747, guid: ebf94e96b315cda4da530874e3824462,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4da092ee445fd5c449d26eafde6cebc0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebf94e96b315cda4da530874e3824462, type: 3}
 --- !u!1 &8953749817833427970 stripped
