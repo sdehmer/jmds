@@ -10,6 +10,7 @@ TagManager:
   - Planet_Earth
   - Hammer
   - Planet_Neptune
+  - Waypoint
   layers:
   - Default
   - TransparentFX
