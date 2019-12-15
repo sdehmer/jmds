@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9193512677384650062}
   - component: {fileID: 2265217636014140348}
   - component: {fileID: 1911988984787541557}
+  - component: {fileID: 7588023791003206261}
   m_Layer: 0
   m_Name: Holz.002
   m_TagString: Untagged
@@ -78,6 +79,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7588023791003206261
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293688559151214560}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -5917327753728438998, guid: ca847565432d1c74ea3634b7a0342daa, type: 3}
 --- !u!1 &4311544735347539811
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,6 +104,7 @@ GameObject:
   - component: {fileID: 2785633304750257792}
   - component: {fileID: 702843314806610589}
   - component: {fileID: 3206868718281786711}
+  - component: {fileID: 8106415051059278534}
   m_Layer: 0
   m_Name: Kamin
   m_TagString: Untagged
@@ -157,6 +173,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8106415051059278534
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4311544735347539811}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -3630275903182124656, guid: ca847565432d1c74ea3634b7a0342daa, type: 3}
 --- !u!1 &4830959615280718797
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,6 +254,7 @@ GameObject:
   - component: {fileID: 7631080809026933407}
   - component: {fileID: 277592630376641169}
   - component: {fileID: 4988048735032027318}
+  - component: {fileID: 1576953352528853845}
   m_Layer: 0
   m_Name: "Ger\xFCst"
   m_TagString: Untagged
@@ -291,6 +322,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1576953352528853845
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4857371638436012582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6629665699511246207, guid: ca847565432d1c74ea3634b7a0342daa, type: 3}
 --- !u!1 &8482357938326848685
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,6 +347,7 @@ GameObject:
   - component: {fileID: 3639736773562224253}
   - component: {fileID: 2242415177272017494}
   - component: {fileID: 2721011064925722141}
+  - component: {fileID: 5646314118566976265}
   m_Layer: 0
   m_Name: Holz.001
   m_TagString: Untagged
@@ -369,6 +415,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5646314118566976265
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8482357938326848685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8866343931468351549, guid: ca847565432d1c74ea3634b7a0342daa, type: 3}
 --- !u!1 &9078501443513048085
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,6 +440,7 @@ GameObject:
   - component: {fileID: 1279931088704193108}
   - component: {fileID: 110485663137103090}
   - component: {fileID: 2981448626982460230}
+  - component: {fileID: 1622057050430982493}
   m_Layer: 0
   m_Name: Holz
   m_TagString: Untagged
@@ -447,6 +508,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1622057050430982493
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9078501443513048085}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -5705801919828293600, guid: ca847565432d1c74ea3634b7a0342daa, type: 3}
 --- !u!1001 &3616000532997638452
 PrefabInstance:
   m_ObjectHideFlags: 0
