@@ -9831,7 +9831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 642521707}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13141,6 +13141,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: 1.9908141
       objectReference: {fileID: 0}
+    - target: {fileID: 6086415181929825262, guid: 019fa522a7cc246439f64cdb5623f9b5,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.6824666
+      objectReference: {fileID: 0}
     - target: {fileID: 7350064094054348328, guid: 019fa522a7cc246439f64cdb5623f9b5,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -13180,6 +13185,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -1.7058706
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449356965282428563, guid: 019fa522a7cc246439f64cdb5623f9b5,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.68246627
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 019fa522a7cc246439f64cdb5623f9b5, type: 3}
@@ -18884,7 +18894,7 @@ MonoBehaviour:
   m_SpawnArea: {x: -1, y: 2, z: -5.5}
   AIObject:
   - m_aiGroupName: Red Fish
-    m_prefab: {fileID: 2482108661385472089, guid: 28dc0b49a1be1b341a50674970cb574a,
+    m_prefab: {fileID: 2409310176014865493, guid: eccd6f2e6e4f3c449b26205caf9913a2,
       type: 3}
     m_maxAI: 10
     m_spawnRate: 20

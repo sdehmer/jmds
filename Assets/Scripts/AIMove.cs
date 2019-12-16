@@ -12,7 +12,7 @@ public class AIMove : MonoBehaviour
     private Vector3 m_wayPoint;
     private Vector3 m_lastWaypoint;
 
-    //private Animator m_animator;
+    private Animator m_animator;
     private float m_speed;
 
     private Collider m_collider;
@@ -21,7 +21,7 @@ public class AIMove : MonoBehaviour
     void Start()
     {
         m_AIManager = transform.parent.GetComponentInParent<AISpawner>();
-        //m_animator = GetComponent<Animator>();
+        m_animator = GetComponent<Animator>();
 
         SetUpNPC();
     }
@@ -102,7 +102,7 @@ public class AIMove : MonoBehaviour
         {
             m_lastWaypoint = m_wayPoint;
             m_speed = Random.Range(start, end);
-            //m_animator.speed = m_speed;
+            m_animator.speed = m_speed;
             return true;
         }
     }
