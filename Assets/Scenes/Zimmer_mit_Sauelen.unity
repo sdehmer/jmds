@@ -18890,9 +18890,10 @@ MonoBehaviour:
   m_SpawnArea: {x: -1, y: 2, z: -5.5}
   AIObject:
   - m_aiGroupName: Red Fish
-    m_prefab: {fileID: 0}
-    m_maxAI: 20
-    m_spawnRate: 2
+    m_prefab: {fileID: 2482108661385472089, guid: 28dc0b49a1be1b341a50674970cb574a,
+      type: 3}
+    m_maxAI: 10
+    m_spawnRate: 20
     m_maxSpawnAmount: 20
     m_enableSpawner: 1
     m_randomizeStats: 0
@@ -22817,7 +22818,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121900365}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -30831,6 +30832,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 322531776596800371, guid: ebf94e96b315cda4da530874e3824462,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 322531776596800371, guid: ebf94e96b315cda4da530874e3824462,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1588774884121702806, guid: ebf94e96b315cda4da530874e3824462,
         type: 3}

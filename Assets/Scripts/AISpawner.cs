@@ -115,9 +115,9 @@ public class AISpawner : MonoBehaviour
         Vector3 randomPosition = new Vector3(
             Random.Range(-spawnArea.x, spawnArea.x),
             Random.Range(-spawnArea.y, spawnArea.y),
-            Random.Range(-spawnArea.z, spawnArea.z)
+            Random.Range(-spawnArea.z * 0.3f, spawnArea.z * 0.3f)
         );
-        randomPosition = transform.TransformPoint(randomPosition * 0.25f);
+        randomPosition = transform.TransformPoint(randomPosition * 0.5f);
         return randomPosition;
     }
 

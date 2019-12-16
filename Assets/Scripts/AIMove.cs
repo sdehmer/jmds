@@ -29,7 +29,7 @@ public class AIMove : MonoBehaviour
     void SetUpNPC()
     {
         float m_scale = Random.Range(.7f, 1.2f);
-        transform.localScale += new Vector3(m_scale * 1.5f, m_scale, m_scale);
+        transform.localScale += new Vector3(m_scale * 0.015f, m_scale * 0.01f, m_scale * 0.01f);
         
         if (transform.GetComponent<Collider>() != null && transform.GetComponent<Collider>().enabled == true)
         {
@@ -73,8 +73,20 @@ public class AIMove : MonoBehaviour
             }
 
             int randomNum = Random.Range(1, 100);
-            if (randomNum < 40)
+            if (randomNum < 20)
                 m_hasTarget = false;
+        }
+    }
+
+    Vector3 GetWaypoint (bool isRandom)
+    {
+        if (isRandom)
+        {
+            return m_AIManager.RandomPosition();
+        }
+        else
+        {
+            return m_AIManager.RandomWaypoint();
         }
     }
 
@@ -82,6 +94,7 @@ public class AIMove : MonoBehaviour
     {
         if (m_lastWaypoint == m_wayPoint)
         {
+            //m_wayPoint = GetWaypoint(true);
             m_wayPoint = m_AIManager.RandomWaypoint();
             return false;
         }
