@@ -11,6 +11,7 @@ TagManager:
   - Hammer
   - Planet_Neptune
   - Waypoint
+  - Planet_Mars
   layers:
   - Default
   - TransparentFX
