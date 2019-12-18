@@ -362,7 +362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 483112, guid: 144152facfa35334a9a921e04c792143, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 483112, guid: 144152facfa35334a9a921e04c792143, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -822,7 +822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437768, guid: 5dc2fd148bd660240b87b68d329d57d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.647383
+      value: -10.513
       objectReference: {fileID: 0}
     - target: {fileID: 437768, guid: 5dc2fd148bd660240b87b68d329d57d5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -830,7 +830,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437768, guid: 5dc2fd148bd660240b87b68d329d57d5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.728106
+      value: 0.526
       objectReference: {fileID: 0}
     - target: {fileID: 437768, guid: 5dc2fd148bd660240b87b68d329d57d5, type: 3}
       propertyPath: m_LocalRotation.x
@@ -850,7 +850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437768, guid: 5dc2fd148bd660240b87b68d329d57d5, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 437768, guid: 5dc2fd148bd660240b87b68d329d57d5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1513,7 +1513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 425252, guid: e4b1ef3c225e1b643b04bf21d93c66ef, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 425252, guid: e4b1ef3c225e1b643b04bf21d93c66ef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1650,7 +1650,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.528854
+      value: -9.584
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1678,7 +1678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2144,6 +2144,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 233126485}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &235831443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 235831444}
+  - component: {fileID: 235831445}
+  m_Layer: 0
+  m_Name: Candlestick_2_Wand_Collider
+  m_TagString: Candlestick_2_Wand
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &235831444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235831443}
+  m_LocalRotation: {x: -0, y: -0.87308186, z: -0, w: 0.48757368}
+  m_LocalPosition: {x: -10.513, y: 1.5582888, z: 0.526}
+  m_LocalScale: {x: 0.75426716, y: 0.54163, z: 0.66666704}
+  m_Children: []
+  m_Father: {fileID: 2080210376}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &235831445
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235831443}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &264495656
 GameObject:
   m_ObjectHideFlags: 0
@@ -7279,7 +7324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.865
+      value: -10.537
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7287,7 +7332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.684
+      value: -3.67
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7307,7 +7352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9104,7 +9149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479346, guid: d22731cba30c5f542865f9ce026b1570, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 479346, guid: d22731cba30c5f542865f9ce026b1570, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9269,7 +9314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479346, guid: d22731cba30c5f542865f9ce026b1570, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 479346, guid: d22731cba30c5f542865f9ce026b1570, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9462,7 +9507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479346, guid: d22731cba30c5f542865f9ce026b1570, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 479346, guid: d22731cba30c5f542865f9ce026b1570, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10958,7 +11003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 410336, guid: 4183cf4ec4aeead489d372e4e1cf2ff9, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 410336, guid: 4183cf4ec4aeead489d372e4e1cf2ff9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11280,6 +11325,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 731697093}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &746547795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 746547796}
+  - component: {fileID: 746547797}
+  m_Layer: 0
+  m_Name: Candlestick_3_Wand_Collider
+  m_TagString: Candlestick_3_Wand
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &746547796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746547795}
+  m_LocalRotation: {x: -0, y: 0.5701258, z: -0, w: 0.8215574}
+  m_LocalPosition: {x: -10.537001, y: 1.0122664, z: -3.67}
+  m_LocalScale: {x: 0.4532934, y: 0.5636067, z: 0.5141534}
+  m_Children: []
+  m_Father: {fileID: 2080210376}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &746547797
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746547795}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &758075391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11391,7 +11480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458934, guid: 05153333d0c2b53478cf212ebb13207c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.552574
+      value: -11.843
       objectReference: {fileID: 0}
     - target: {fileID: 458934, guid: 05153333d0c2b53478cf212ebb13207c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11399,7 +11488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458934, guid: 05153333d0c2b53478cf212ebb13207c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.086513
+      value: -4.141
       objectReference: {fileID: 0}
     - target: {fileID: 458934, guid: 05153333d0c2b53478cf212ebb13207c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -11520,6 +11609,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 780950608}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &804547671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 804547672}
+  - component: {fileID: 804547673}
+  m_Layer: 12
+  m_Name: Candlestick_4_Wand_Collider
+  m_TagString: Candlestick_4_Wand
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &804547672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804547671}
+  m_LocalRotation: {x: -0, y: -0.7152148, z: -0, w: 0.6989048}
+  m_LocalPosition: {x: -6.726, y: 0.96, z: -4.127}
+  m_LocalScale: {x: 0.7158674, y: 0.68813336, z: 0.66666734}
+  m_Children: []
+  m_Father: {fileID: 2080210376}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &804547673
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804547671}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &834785714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11874,6 +12007,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 873491907}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &881962315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 881962316}
+  - component: {fileID: 881962317}
+  m_Layer: 12
+  m_Name: Candlestick_5_Wand_Collider
+  m_TagString: Candlestick_5_Wand
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &881962316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881962315}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.584, y: 1.659, z: -4.0145607}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2080210376}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &881962317
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881962315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &882423534
 GameObject:
   m_ObjectHideFlags: 0
@@ -12081,7 +12258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 493650, guid: d62c848a5b06ada459b7f230119781d2, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 493650, guid: d62c848a5b06ada459b7f230119781d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12366,6 +12543,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1967376937}
   - {fileID: 1214722809}
   - {fileID: 541114564}
   - {fileID: 1989849025}
@@ -13530,7 +13708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 478476, guid: f8b02bbcd8dc2cd459f9c678a27cd05a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13998,6 +14176,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1140072344}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1142306791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1142306792}
+  - component: {fileID: 1142306793}
+  m_Layer: 0
+  m_Name: Drawer_Candle_Wand_Collider
+  m_TagString: Drawer_Candle_Wand
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1142306792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142306791}
+  m_LocalRotation: {x: -0, y: 0.86539507, z: -0, w: 0.5010902}
+  m_LocalPosition: {x: -4.7733817, y: 1.0130866, z: 0.9827728}
+  m_LocalScale: {x: 0.4656159, y: 0.3107, z: 0.5063039}
+  m_Children: []
+  m_Father: {fileID: 1143532417}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1142306793
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142306791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1143167789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14101,11 +14324,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 375145234}
+  - {fileID: 1350598986}
   - {fileID: 891394973}
   - {fileID: 59755522}
   - {fileID: 705743870}
   - {fileID: 1394298869}
   - {fileID: 176272379}
+  - {fileID: 1142306792}
   - {fileID: 551299586}
   m_Father: {fileID: 1050514625}
   m_RootOrder: 11
@@ -14638,7 +14863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 429278, guid: 77a7baeb487eaf1498a725de06af4338, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 429278, guid: 77a7baeb487eaf1498a725de06af4338, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16362,6 +16587,51 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 6470b5acd3a9ff34cba1899f4610be4b, type: 3}
+--- !u!1 &1350598985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1350598986}
+  - component: {fileID: 1350598987}
+  m_Layer: 0
+  m_Name: Drawer_Candlestick_Wand_Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1350598986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350598985}
+  m_LocalRotation: {x: -0, y: -0.5636651, z: -0, w: 0.8260035}
+  m_LocalPosition: {x: -3.756466, y: 1.2912886, z: 0.89246786}
+  m_LocalScale: {x: 0.43425083, y: 0.34091204, z: 0.48421925}
+  m_Children: []
+  m_Father: {fileID: 1143532417}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1350598987
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350598985}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1357567515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16765,7 +17035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437200, guid: efdf084018fecc944923f3c80c3da1d3, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 437200, guid: efdf084018fecc944923f3c80c3da1d3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17245,7 +17515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 493650, guid: d62c848a5b06ada459b7f230119781d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.4533825
+      value: -11.448
       objectReference: {fileID: 0}
     - target: {fileID: 493650, guid: d62c848a5b06ada459b7f230119781d2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17253,7 +17523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 493650, guid: d62c848a5b06ada459b7f230119781d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.354561
+      value: -4.144
       objectReference: {fileID: 0}
     - target: {fileID: 493650, guid: d62c848a5b06ada459b7f230119781d2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -18740,7 +19010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437768, guid: 5dc2fd148bd660240b87b68d329d57d5, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 437768, guid: 5dc2fd148bd660240b87b68d329d57d5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19910,6 +20180,7 @@ Transform:
   - {fileID: 2143722791}
   - {fileID: 2080138924}
   - {fileID: 1937378967}
+  - {fileID: 2027539981}
   - {fileID: 575772332}
   m_Father: {fileID: 1050514625}
   m_RootOrder: 5
@@ -21244,6 +21515,50 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 8f966ac23d2a909469a9acd3b9aaee76, type: 3}
+--- !u!1 &1967376936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1967376937}
+  - component: {fileID: 1967376938}
+  m_Layer: 0
+  m_Name: Fireplace_Candles_Wand_Collider
+  m_TagString: Fireplace_Candles_Wand
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1967376937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967376936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.668, y: 1.437, z: 0.872}
+  m_LocalScale: {x: 0.28925455, y: 0.40431452, z: 0.31740588}
+  m_Children: []
+  m_Father: {fileID: 960810507}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1967376938
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967376936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1980863948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21427,7 +21742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 454828, guid: f3d569cc46ca74d42b7e92d6b5875b51, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 454828, guid: f3d569cc46ca74d42b7e92d6b5875b51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21532,6 +21847,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1992265678}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2007704505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2007704506}
+  - component: {fileID: 2007704507}
+  m_Layer: 12
+  m_Name: Candlestick_1_Wand_Collider
+  m_TagString: Candlestick_1_Wand
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2007704506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007704505}
+  m_LocalRotation: {x: -0, y: -0.8183258, z: -0, w: 0.57475466}
+  m_LocalPosition: {x: -5.725, y: 1.5319331, z: 0.81100005}
+  m_LocalScale: {x: 0.66666734, y: 0.5424894, z: 0.76513404}
+  m_Children: []
+  m_Father: {fileID: 2080210376}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &2007704507
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007704505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2013911547
 GameObject:
   m_ObjectHideFlags: 0
@@ -21814,6 +22174,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2027383851}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2027539980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2027539981}
+  - component: {fileID: 2027539982}
+  m_Layer: 0
+  m_Name: Table_Candle_Wand_Collider
+  m_TagString: Table_Candle_Wand
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2027539981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027539980}
+  m_LocalRotation: {x: -0, y: -0.37825125, z: -0, w: 0.925703}
+  m_LocalPosition: {x: -5.0837164, y: 0.80481935, z: -3.918372}
+  m_LocalScale: {x: 0.37606728, y: 0.37606716, z: 0.37606728}
+  m_Children: []
+  m_Father: {fileID: 1766438500}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2027539982
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027539980}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2033681895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22389,10 +22793,15 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 2007704506}
   - {fileID: 1573201588}
+  - {fileID: 235831444}
   - {fileID: 87277891}
+  - {fileID: 746547796}
   - {fileID: 324281052}
+  - {fileID: 804547672}
   - {fileID: 1077048006}
+  - {fileID: 881962316}
   - {fileID: 206679166}
   m_Father: {fileID: 1050514625}
   m_RootOrder: 17

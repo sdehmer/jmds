@@ -13,6 +13,15 @@ TagManager:
   - Waypoint
   - Planet_Mars
   - Fireplace_Wand
+  - Candlestick_4_Wand
+  - Candlestick_5_Wand
+  - Candlestick_3_Wand
+  - Candlestick_2_Wand
+  - Candlestick_1_Wand
+  - Drawer_Candle_Wand
+  - Drawer_Candlestick_Wand
+  - Table_Candle_Wand
+  - Fireplace_Candles_Wand
   layers:
   - Default
   - TransparentFX
