@@ -12,6 +12,7 @@ TagManager:
   - Planet_Neptune
   - Waypoint
   - Planet_Mars
+  - Fireplace_Wand
   layers:
   - Default
   - TransparentFX
