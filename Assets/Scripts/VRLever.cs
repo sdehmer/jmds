@@ -34,11 +34,11 @@ public class VRLever : MonoBehaviour
 
         if (this.transform.localPosition.z >= START_Z_POS - 0.5)
         {
-            Debug.Log("Disabled");
+            //Debug.Log("Disabled");
         }
         else if (this.transform.localPosition.z <= END_Z_POS + 0.5) 
         {
-            Debug.Log("Enabled");
+            //Debug.Log("Enabled");
         }
     }
 }
