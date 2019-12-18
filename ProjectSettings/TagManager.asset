@@ -22,6 +22,9 @@ TagManager:
   - Drawer_Candlestick_Wand
   - Table_Candle_Wand
   - Fireplace_Candles_Wand
+  - Fireplace_Candlestick_Wand
+  - Jail_Canldes_Wand
+  - Alchemy_Candlestick_Wand
   layers:
   - Default
   - TransparentFX
