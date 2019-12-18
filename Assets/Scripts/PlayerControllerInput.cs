@@ -18,7 +18,9 @@ public class PlayerControllerInput : MonoBehaviour
     volatile bool isScaling = false;
 
 
-    
+
+    public Light fireplaceLight;
+
 
     public GameObject cameraRig;
     Vector3 cameraRigScale;
@@ -45,7 +47,20 @@ public class PlayerControllerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        if (OVRInput.GetDown(OVRInput.Button.One) && wand.isGrabbed) // returns true if the primary button (typically “A”) was pressed this frame.
+        {
+            if(fireplaceLight.isActiveAndEnabled)
+            {
+                fireplaceLight.enabled = false;
+            }
+            else
+            {
+                fireplaceLight.enabled = true;
+            }
+        }
+
+        /*
         if(OVRInput.GetDown(OVRInput.Button.One) && wand.isGrabbed && !isScaling) // returns true if the primary button (typically “A”) was pressed this frame.
         {
             Debug.Log("Apfelmus!");
@@ -119,6 +134,7 @@ public class PlayerControllerInput : MonoBehaviour
 
             //wand.transform.localScale = new Vector3(wandScale.x * scale, wandScale.y * scale, wandScale.z * scale);
         }
+        */
 
     }
     
