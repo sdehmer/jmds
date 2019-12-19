@@ -10,6 +10,7 @@ public class WandSpell : MonoBehaviour
     public GameObject objectInViewport;
     public string AREA_COLLIDER_TAG;
     public Light objectLight;
+    public List<ParticleSystem> objectParticles = new List<ParticleSystem>();
 
     private bool inArea = false;
 
@@ -57,10 +58,20 @@ public class WandSpell : MonoBehaviour
                 if (objectLight.isActiveAndEnabled)
                 {
                     objectLight.enabled = false;
+
+                    foreach (ParticleSystem ps in objectParticles)
+                    {
+                        ps.gameObject.SetActive(false);
+                    }
                 }
                 else
                 {
                     objectLight.enabled = true;
+
+                    foreach (ParticleSystem ps in objectParticles)
+                    {
+                        ps.gameObject.SetActive(true);
+                    }
                 }
             }
 
