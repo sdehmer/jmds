@@ -34,6 +34,7 @@ public class WandSpell : MonoBehaviour
         if (gameObject.CompareTag(AREA_COLLIDER_TAG))
         {
             inArea = false;
+            particle.Stop();
         }
     }
 
@@ -49,10 +50,6 @@ public class WandSpell : MonoBehaviour
             {
                 particle.Play();
             }
-            else
-            {
-                particle.Stop();
-            }
 
 
             if (OVRInput.GetDown(OVRInput.Button.One)) // returns true if the primary button (typically “A”) was pressed this frame.
@@ -67,13 +64,6 @@ public class WandSpell : MonoBehaviour
                 }
             }
 
-
-
-
-        }
-        else
-        {
-            particle.Stop();
         }
     }
 

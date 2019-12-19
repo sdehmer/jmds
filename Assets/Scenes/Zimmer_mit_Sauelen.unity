@@ -16693,8 +16693,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 841546242}
-  - component: {fileID: 841546245}
-  - component: {fileID: 841546244}
   - component: {fileID: 841546243}
   m_Layer: 0
   m_Name: Alchemy_Candlestick_Wand_Collider
@@ -16725,58 +16723,12 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841546241}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &841546244
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841546241}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &841546245
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841546241}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &853199480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19595,7 +19547,7 @@ PrefabInstance:
     - target: {fileID: 1064718301098403909, guid: d861c9e27f6b54f4386c084bfc48a925,
         type: 3}
       propertyPath: m_allowOffhandGrab
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d861c9e27f6b54f4386c084bfc48a925, type: 3}
@@ -19650,7 +19602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particle: {fileID: 157800075}
-  objectInViewport: {fileID: 2140681376}
+  objectInViewport: {fileID: 1553801785}
   AREA_COLLIDER_TAG: Fireplace_Wand
   objectLight: {fileID: 569089339}
 --- !u!114 &1172961594
@@ -24143,6 +24095,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1552627778}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1553801785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4311544735347539811, guid: e756c95bba0bbd84da8ce7df9b621691,
+    type: 3}
+  m_PrefabInstance: {fileID: 569089337}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1553801786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553801785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b54495b5e47b44589e59531802ab23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isVisible: 0
 --- !u!1001 &1558582052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29007,19 +28978,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2140681378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140681376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7b54495b5e47b44589e59531802ab23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isVisible: 0
 --- !u!1001 &2143722790
 PrefabInstance:
   m_ObjectHideFlags: 0
