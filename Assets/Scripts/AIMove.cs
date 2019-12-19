@@ -28,8 +28,8 @@ public class AIMove : MonoBehaviour
 
     void SetUpNPC()
     {
-        float m_scale = Random.Range(.7f, 1.2f);
-        transform.localScale += new Vector3(m_scale * 0.015f, m_scale * 0.01f, m_scale * 0.01f);
+        float m_scale = Random.Range(.007f, .012f);
+        transform.localScale += new Vector3(m_scale * 1.5f, m_scale, m_scale);
         
         if (transform.GetComponent<Collider>() != null && transform.GetComponent<Collider>().enabled == true)
         {
@@ -73,7 +73,7 @@ public class AIMove : MonoBehaviour
             }
 
             int randomNum = Random.Range(1, 100);
-            if (randomNum < 20)
+            if (randomNum < 40)
                 m_hasTarget = false;
         }
     }
@@ -94,8 +94,8 @@ public class AIMove : MonoBehaviour
     {
         if (m_lastWaypoint == m_wayPoint)
         {
-            //m_wayPoint = GetWaypoint(true);
-            m_wayPoint = m_AIManager.RandomWaypoint();
+            m_wayPoint = GetWaypoint(true);
+            //m_wayPoint = m_AIManager.RandomWaypoint();
             return false;
         }
         else
@@ -109,7 +109,7 @@ public class AIMove : MonoBehaviour
 
     void RotateNPC (Vector3 waypoint, float currentSpeed)
     {
-        float TurnSpeed = currentSpeed * Random.Range(1f, 3f);
+        float TurnSpeed = currentSpeed * Random.Range(10f, 15f);
         Vector3 LookAt = waypoint - this.transform.position;
         transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(LookAt), TurnSpeed * Time.deltaTime);
     }
