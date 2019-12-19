@@ -25,6 +25,7 @@ TagManager:
   - Fireplace_Candlestick_Wand
   - Jail_Canldes_Wand
   - Alchemy_Candlestick_Wand
+  - Planet_Uranus
   layers:
   - Default
   - TransparentFX

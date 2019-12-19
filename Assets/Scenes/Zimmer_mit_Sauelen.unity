@@ -20936,6 +20936,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5162444553842921827, guid: bc0ef4c724b453c4e9b8428aa1b8fade,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2778365470378025058, guid: bc0ef4c724b453c4e9b8428aa1b8fade, type: 3}
     - {fileID: 2778365470378025069, guid: bc0ef4c724b453c4e9b8428aa1b8fade, type: 3}
@@ -21237,6 +21242,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TAG_Planet: Planet_Mars
+--- !u!114 &1234522090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234522073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ec74d01b107ef4da9dbdc669b90d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TAG_Planet: Planet_Uranus
+--- !u!135 &1234522091
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234522073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.010000001
+  m_Center: {x: 0.000000012572855, y: -0.000000004656613, z: -0.000000029802322}
 --- !u!1001 &1238731331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25479,6 +25510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Uranus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969848762560618213, guid: 40dcb65dcf03da149888994b44c0ca75,
+        type: 3}
+      propertyPath: m_TagString
+      value: Planet_Uranus
       objectReference: {fileID: 0}
     - target: {fileID: 5019783478535916957, guid: 40dcb65dcf03da149888994b44c0ca75,
         type: 3}
