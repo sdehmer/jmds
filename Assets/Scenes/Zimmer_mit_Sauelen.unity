@@ -15341,7 +15341,7 @@ PrefabInstance:
     - target: {fileID: 6462699355292806534, guid: 3f2fe202a9a73764aaabab2edb5e38ca,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6462699355292806534, guid: 3f2fe202a9a73764aaabab2edb5e38ca,
         type: 3}
@@ -25312,6 +25312,14 @@ MonoBehaviour:
   AIObject:
   - m_aiGroupName: Red Fish
     m_prefab: {fileID: 2409310176014865493, guid: eccd6f2e6e4f3c449b26205caf9913a2,
+      type: 3}
+    m_maxAI: 10
+    m_spawnRate: 20
+    m_maxSpawnAmount: 20
+    m_enableSpawner: 1
+    m_randomizeStats: 0
+  - m_aiGroupName: Beta Fish
+    m_prefab: {fileID: 5536445581872936170, guid: 6bc1cb89f4f163f44ba981d7c6c7e75e,
       type: 3}
     m_maxAI: 10
     m_spawnRate: 20

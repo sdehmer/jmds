@@ -94,8 +94,8 @@ public class AIMove : MonoBehaviour
     {
         if (m_lastWaypoint == m_wayPoint)
         {
-            m_wayPoint = GetWaypoint(true);
-            //m_wayPoint = m_AIManager.RandomWaypoint();
+            //m_wayPoint = GetWaypoint(true);
+            m_wayPoint = m_AIManager.RandomWaypoint();
             return false;
         }
         else
