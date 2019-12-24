@@ -19992,6 +19992,7 @@ Transform:
   - {fileID: 1459816216}
   - {fileID: 2135571068}
   - {fileID: 1637896831}
+  - {fileID: 1479250314}
   m_Father: {fileID: 510485604}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21754,6 +21755,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6769251577067180715, guid: bc0ef4c724b453c4e9b8428aa1b8fade,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2778365470378025058, guid: bc0ef4c724b453c4e9b8428aa1b8fade, type: 3}
     - {fileID: 2778365470378025069, guid: bc0ef4c724b453c4e9b8428aa1b8fade, type: 3}
@@ -22097,6 +22103,32 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &1234522093
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234522078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.010000001
+  m_Center: {x: -0.000000017229468, y: -0.000000016763806, z: 0.000000014901161}
+--- !u!114 &1234522094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234522078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ec74d01b107ef4da9dbdc669b90d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TAG_Planet: Planet_Jupiter
 --- !u!1001 &1238731331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24774,27 +24806,32 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1097343918}
     m_Modifications:
     - target: {fileID: 2106588984383620575, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
       propertyPath: m_Name
       value: Jupiter
       objectReference: {fileID: 0}
+    - target: {fileID: 2106588984383620575, guid: 9bc630d66fec5884480f0c1bc755c791,
+        type: 3}
+      propertyPath: m_TagString
+      value: Planet_Jupiter
+      objectReference: {fileID: 0}
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.471
+      value: -2.4460483
       objectReference: {fileID: 0}
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.325
+      value: 0.04662198
       objectReference: {fileID: 0}
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.838
+      value: 0.70477283
       objectReference: {fileID: 0}
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
@@ -24804,7 +24841,7 @@ PrefabInstance:
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
@@ -24819,7 +24856,7 @@ PrefabInstance:
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
@@ -24839,17 +24876,17 @@ PrefabInstance:
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 31.986889
+      value: 21.324593
       objectReference: {fileID: 0}
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 31.986889
+      value: 21.324587
       objectReference: {fileID: 0}
     - target: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 31.986889
+      value: 21.324587
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bc630d66fec5884480f0c1bc755c791, type: 3}
@@ -24905,6 +24942,12 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
+--- !u!4 &1479250314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2314313909460404315, guid: 9bc630d66fec5884480f0c1bc755c791,
+    type: 3}
+  m_PrefabInstance: {fileID: 1479250309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1487240613
 PrefabInstance:
   m_ObjectHideFlags: 0
