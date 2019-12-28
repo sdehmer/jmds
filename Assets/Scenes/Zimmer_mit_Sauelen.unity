@@ -21886,7 +21886,7 @@ PrefabInstance:
     - target: {fileID: 8998206141242862875, guid: bc0ef4c724b453c4e9b8428aa1b8fade,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6902513
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 8998206141242862875, guid: bc0ef4c724b453c4e9b8428aa1b8fade,
         type: 3}
@@ -21901,12 +21901,12 @@ PrefabInstance:
     - target: {fileID: 8998206141242862875, guid: bc0ef4c724b453c4e9b8428aa1b8fade,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.72356975
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 8998206141242862875, guid: bc0ef4c724b453c4e9b8428aa1b8fade,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 87.3
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 4958701320605772478, guid: bc0ef4c724b453c4e9b8428aa1b8fade,
         type: 3}
@@ -22082,10 +22082,10 @@ MonoBehaviour:
   speed: 1
   ForwardX: 0
   ForwardY: 0
-  ForwardZ: 0
+  ForwardZ: 1
   ReverseX: 0
   ReverseY: 0
-  ReverseZ: 1
+  ReverseZ: 0
 --- !u!114 &1234522080
 MonoBehaviour:
   m_ObjectHideFlags: 0
