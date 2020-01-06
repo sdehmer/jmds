@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class WandSpell : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class WandSpell : MonoBehaviour
     public Light objectLight;
     public List<ParticleSystem> objectParticles = new List<ParticleSystem>();
     public List<AudioSource> objectSounds = new List<AudioSource>();
+    public List<UnityEvent> enableEvents = new List<UnityEvent>();
+    public List<UnityEvent> disableEvents = new List<UnityEvent>();
 
     private bool inArea = false;
 
@@ -69,6 +72,11 @@ public class WandSpell : MonoBehaviour
                     {
                         audioSource.enabled = false;
                     }
+
+                    foreach (UnityEvent enableEvent in enableEvents)
+                    {
+                        enableEvent.Invoke();
+                    }
                 }
                 else
                 {
@@ -83,6 +91,12 @@ public class WandSpell : MonoBehaviour
                     {
                         audioSource.enabled = true;
                     }
+
+                    foreach (UnityEvent disableEvent in disableEvents)
+                    {
+                        disableEvent.Invoke();
+                    }
+
                 }
             }
 

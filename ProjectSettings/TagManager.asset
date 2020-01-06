@@ -28,6 +28,7 @@ TagManager:
   - Planet_Uranus
   - Planet_Jupiter
   - Note_Jupiter
+  - Fireplace
   layers:
   - Default
   - TransparentFX

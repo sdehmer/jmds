@@ -6,6 +6,13 @@ public class VRGrammophone : MonoBehaviour
 {
 
     public GameObject noteJupiter;
+    public AudioSource audioSource;
+
+    public AudioSource unlockAudioSource;
+    public GameObject drawerHandler;
+    public GameObject doorHandler;
+
+
 
 
 
@@ -17,12 +24,18 @@ public class VRGrammophone : MonoBehaviour
         {
             noteJupiter.GetComponent<MeshRenderer>().enabled = true;
 
-            AudioSource audioSource = this.GetComponent<AudioSource>();
-            if(audioSource != null)
+            if (unlockAudioSource != null)
+            {
+                unlockAudioSource.Play();
+            }
+
+            drawerHandler.SetActive(true);
+            doorHandler.SetActive(true);
+
+            if (audioSource != null)
             {
                 audioSource.Play();
             }
-
 
             UngrabbAndDestroy(gameObject);
         }

@@ -49,6 +49,8 @@ public class VRCasket : MonoBehaviour
             renderer.enabled = false;
             grabbable.enabled = false;
 
+            this.GetComponent<AudioSource>().Play();
+
             grabbable.grabbedBy.ForceRelease(grabbable);
             
             gameObject.SetActive(false);
