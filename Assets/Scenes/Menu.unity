@@ -1366,7 +1366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!199 &264495657
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -14018,7 +14018,7 @@ PrefabInstance:
     - target: {fileID: 6163309289834726302, guid: ebf94e96b315cda4da530874e3824462,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8189052912174196304, guid: ebf94e96b315cda4da530874e3824462,
         type: 3}
@@ -14170,30 +14170,35 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 7467128769708601595, guid: ebf94e96b315cda4da530874e3824462,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5932491537285298804, guid: ebf94e96b315cda4da530874e3824462,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1959592432880304255, guid: ebf94e96b315cda4da530874e3824462,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8981631153109508741, guid: ebf94e96b315cda4da530874e3824462,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4108267183892208872, guid: ebf94e96b315cda4da530874e3824462,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7425548106773570024, guid: ebf94e96b315cda4da530874e3824462,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7273269929833468423, guid: ebf94e96b315cda4da530874e3824462,
         type: 3}
