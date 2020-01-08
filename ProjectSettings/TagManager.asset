@@ -29,6 +29,7 @@ TagManager:
   - Planet_Jupiter
   - Note_Jupiter
   - Fireplace
+  - HaningCabinet_Unlock_Wand
   layers:
   - Default
   - TransparentFX
