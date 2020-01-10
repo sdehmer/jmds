@@ -42,7 +42,7 @@ public class VRWand : MonoBehaviour
         {
             InPlayerViewport viewport = fireplace.GetComponent<InPlayerViewport>();
 
-            if (viewport.isVisible)
+            if (viewport.IsVisible)
             {
                 Debug.Log("Play effect");
                 particleFirespace.Play();

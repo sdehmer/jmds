@@ -47,7 +47,7 @@ public class WandUnlockSpell : MonoBehaviour
         {
             InPlayerViewport viewport = objectInViewport.GetComponent<InPlayerViewport>();
 
-            if (viewport.isVisible)
+            if (viewport.IsVisible)
             {
                 particle.Play();
             }

@@ -5,7 +5,18 @@ using UnityEngine;
 public class InPlayerViewport : MonoBehaviour
 {
 
-    public bool isVisible;
+    private bool isVisible;
+
+    public bool IsVisible
+    {
+        get
+        {
+            Renderer renderer = GetComponent<Renderer>();
+            return (renderer.isVisible || isVisible);
+        }
+        
+    }
+
 
     // Disable the behaviour when it becomes invisible...
     void OnBecameInvisible()

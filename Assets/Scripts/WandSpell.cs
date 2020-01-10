@@ -51,7 +51,7 @@ public class WandSpell : MonoBehaviour
         {
             InPlayerViewport viewport = objectInViewport.GetComponent<InPlayerViewport>();
 
-            if (viewport.isVisible)
+            if (viewport.IsVisible)
             {
                 particle.Play();
             }
