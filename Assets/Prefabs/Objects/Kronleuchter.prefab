@@ -2993,7 +2993,7 @@ PrefabInstance:
     - target: {fileID: 2150143692998790689, guid: aea97f172e40a0d4b935e0a2c7b084d3,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea97f172e40a0d4b935e0a2c7b084d3, type: 3}
@@ -3451,11 +3451,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 309004991148032129}
     m_Modifications:
-    - target: {fileID: 1181336420316729827, guid: e910bafc77266f5448302d955b367502,
-        type: 3}
-      propertyPath: m_Name
-      value: Planet Neptune
-      objectReference: {fileID: 0}
     - target: {fileID: 1601935494666122717, guid: e910bafc77266f5448302d955b367502,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3526,6 +3521,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.1357367
       objectReference: {fileID: 0}
+    - target: {fileID: 1181336420316729827, guid: e910bafc77266f5448302d955b367502,
+        type: 3}
+      propertyPath: m_Name
+      value: Planet Neptune
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e910bafc77266f5448302d955b367502, type: 3}
 --- !u!4 &4958701320605772478 stripped
@@ -3541,16 +3541,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6425014386176644399}
     m_Modifications:
-    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
-        type: 3}
-      propertyPath: m_Name
-      value: Planet Mercury
-      objectReference: {fileID: 0}
-    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3601327358242927081, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3621,10 +3611,20 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 2.426715
       objectReference: {fileID: 0}
+    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+        type: 3}
+      propertyPath: m_Name
+      value: Planet Mercury
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337995613917311833, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7854634718339087509, guid: 5cc55a3612b9bf148b8dfe888d669d1c,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cc55a3612b9bf148b8dfe888d669d1c, type: 3}
