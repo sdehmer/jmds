@@ -92,7 +92,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -122,8 +122,6 @@ GameObject:
   - component: {fileID: 5735645463765599897}
   - component: {fileID: 183602650645626106}
   - component: {fileID: 7845590777467434712}
-  - component: {fileID: 5650405967506242429}
-  - component: {fileID: 5090313865805627491}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.002"
   m_TagString: Untagged
@@ -203,7 +201,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -220,34 +218,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000004, y: 0.020000001, z: 0.019999994}
   m_Center: {x: 0.56485355, y: 0.07646824, z: -9.313224e-10}
---- !u!138 &5650405967506242429
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188122010261774776}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &5090313865805627491
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188122010261774776}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &216595057961154413
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,8 +231,6 @@ GameObject:
   - component: {fileID: 3460515523928269741}
   - component: {fileID: 7407856962006769441}
   - component: {fileID: 3544716261983195620}
-  - component: {fileID: 453412158381724852}
-  - component: {fileID: 5613666535019248421}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.022"
   m_TagString: Untagged
@@ -342,7 +310,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -359,34 +327,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.34976107, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &453412158381724852
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 216595057961154413}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &5613666535019248421
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 216595057961154413}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &250066495219013456
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,8 +340,6 @@ GameObject:
   - component: {fileID: 2343661358422590822}
   - component: {fileID: 117094916458362393}
   - component: {fileID: 5233509249255456506}
-  - component: {fileID: 4255478318905168358}
-  - component: {fileID: 6735313095352053501}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.010"
   m_TagString: Untagged
@@ -481,7 +419,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -498,34 +436,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000004, y: 0.019999979, z: 0.019999994}
   m_Center: {x: 0.56485355, y: -0.5140147, z: -9.313224e-10}
---- !u!138 &4255478318905168358
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250066495219013456}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &6735313095352053501
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250066495219013456}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &271755272245257086
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,8 +449,6 @@ GameObject:
   - component: {fileID: 415521911784247544}
   - component: {fileID: 6906979899173669622}
   - component: {fileID: 804855334283825818}
-  - component: {fileID: 5869378156218186754}
-  - component: {fileID: 1441666486411152713}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.018"
   m_TagString: Untagged
@@ -620,7 +528,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -637,34 +545,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.26055646, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &5869378156218186754
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271755272245257086}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &1441666486411152713
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271755272245257086}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &288147018684923003
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,8 +650,6 @@ GameObject:
   - component: {fileID: 6993718697658583901}
   - component: {fileID: 5059182046942453704}
   - component: {fileID: 7555958810704210038}
-  - component: {fileID: 274199963780409745}
-  - component: {fileID: 3643198237817013673}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.035"
   m_TagString: Untagged
@@ -851,7 +729,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -868,34 +746,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.39365172, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &274199963780409745
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 563192610820350366}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &3643198237817013673
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 563192610820350366}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &585227365666558624
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,8 +851,6 @@ GameObject:
   - component: {fileID: 8373511411238366443}
   - component: {fileID: 8544686201112234463}
   - component: {fileID: 128963260845769630}
-  - component: {fileID: 5890868087454691643}
-  - component: {fileID: 6143365508590511097}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.013"
   m_TagString: Untagged
@@ -1082,7 +930,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1099,34 +947,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.043126144, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &5890868087454691643
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758561345450624426}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &6143365508590511097
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758561345450624426}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &843289433709227153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,8 +960,6 @@ GameObject:
   - component: {fileID: 4405409763522770252}
   - component: {fileID: 6819708383478305371}
   - component: {fileID: 4808902452329911058}
-  - component: {fileID: 3975156031311615273}
-  - component: {fileID: 7731820367884713431}
   m_Layer: 0
   m_Name: Zelle.011
   m_TagString: Untagged
@@ -1221,7 +1039,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1238,34 +1056,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00067604985, y: 0.00076211046, z: 0.011561694}
   m_Center: {x: 0.006903143, y: 0.01000639, z: 0.00057865505}
---- !u!138 &3975156031311615273
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843289433709227153}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &7731820367884713431
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843289433709227153}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &860342874403419683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,8 +1069,6 @@ GameObject:
   - component: {fileID: 3684306172876812315}
   - component: {fileID: 8604502843417383145}
   - component: {fileID: 6543023939596521957}
-  - component: {fileID: 232869444215599352}
-  - component: {fileID: 2200407561099199236}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.005"
   m_TagString: Untagged
@@ -1360,7 +1148,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1377,34 +1165,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000004, y: 0.019999998, z: 0.019999994}
   m_Center: {x: 0.56485355, y: -0.013763212, z: -9.313224e-10}
---- !u!138 &232869444215599352
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860342874403419683}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &2200407561099199236
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860342874403419683}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &951606988264735487
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,8 +1178,6 @@ GameObject:
   - component: {fileID: 1847810231339297937}
   - component: {fileID: 2652958311035932952}
   - component: {fileID: 2210141560211286180}
-  - component: {fileID: 780327042346625030}
-  - component: {fileID: 1062127330118390913}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.040"
   m_TagString: Untagged
@@ -1499,7 +1257,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1516,34 +1274,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.020000001, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.08302798, z: -9.313224e-10}
---- !u!138 &780327042346625030
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951606988264735487}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &1062127330118390913
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951606988264735487}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &953030796838448617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1557,8 +1287,6 @@ GameObject:
   - component: {fileID: 9148531242048400110}
   - component: {fileID: 3269107554562961183}
   - component: {fileID: 7397802232026268139}
-  - component: {fileID: 8782950430872749063}
-  - component: {fileID: 8259310710239353032}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.049"
   m_TagString: Untagged
@@ -1638,7 +1366,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1655,34 +1383,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999979, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.5154516, z: -9.313224e-10}
---- !u!138 &8782950430872749063
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953030796838448617}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &8259310710239353032
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 953030796838448617}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1023371496304765334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,8 +1396,6 @@ GameObject:
   - component: {fileID: 4074492536892933590}
   - component: {fileID: 744079277443956997}
   - component: {fileID: 5179459878089556649}
-  - component: {fileID: 499341901722250702}
-  - component: {fileID: 4038612980097895991}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.025"
   m_TagString: Untagged
@@ -1777,7 +1475,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1794,34 +1492,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.47554988, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &499341901722250702
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1023371496304765334}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &4038612980097895991
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1023371496304765334}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1055526454014002562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,8 +1505,6 @@ GameObject:
   - component: {fileID: 5531109242769022458}
   - component: {fileID: 6683178741699735699}
   - component: {fileID: 2428796022845927936}
-  - component: {fileID: 4366826045594663208}
-  - component: {fileID: 5780642762001758982}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.028"
   m_TagString: Untagged
@@ -1916,7 +1584,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1933,34 +1601,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.043126144, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &4366826045594663208
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1055526454014002562}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &5780642762001758982
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1055526454014002562}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1097670480491985117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1974,8 +1614,6 @@ GameObject:
   - component: {fileID: 5878648220317299120}
   - component: {fileID: 87820322546042479}
   - component: {fileID: 8475196644458658348}
-  - component: {fileID: 2240243538083171884}
-  - component: {fileID: 400138839200831725}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.004"
   m_TagString: Untagged
@@ -2055,7 +1693,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2072,34 +1710,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000004, y: 0.019999998, z: 0.019999994}
   m_Center: {x: 0.56485355, y: 0.03012743, z: -9.313224e-10}
---- !u!138 &2240243538083171884
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1097670480491985117}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &400138839200831725
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1097670480491985117}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1119840599277833048
 GameObject:
   m_ObjectHideFlags: 0
@@ -2113,8 +1723,6 @@ GameObject:
   - component: {fileID: 623738035184736154}
   - component: {fileID: 6480879727509953426}
   - component: {fileID: 2388461212220032301}
-  - component: {fileID: 213766476955925288}
-  - component: {fileID: 5877369872305039215}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.011"
   m_TagString: Untagged
@@ -2194,7 +1802,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2211,34 +1819,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000004, y: 0.019999979, z: 0.019999994}
   m_Center: {x: 0.56485355, y: -0.55544895, z: -9.313224e-10}
---- !u!138 &213766476955925288
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119840599277833048}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &5877369872305039215
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119840599277833048}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1274615139631950321
 GameObject:
   m_ObjectHideFlags: 0
@@ -2252,8 +1832,6 @@ GameObject:
   - component: {fileID: 6448490026351131624}
   - component: {fileID: 2520392541250340545}
   - component: {fileID: 6450951245989066691}
-  - component: {fileID: 761607797315600988}
-  - component: {fileID: 841009949083065569}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.017"
   m_TagString: Untagged
@@ -2333,7 +1911,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2350,34 +1928,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.30342025, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &761607797315600988
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274615139631950321}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &841009949083065569
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274615139631950321}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1452708931649800892
 GameObject:
   m_ObjectHideFlags: 0
@@ -2391,8 +1941,6 @@ GameObject:
   - component: {fileID: 9210539541467244863}
   - component: {fileID: 4440326321792028013}
   - component: {fileID: 8854547133785840425}
-  - component: {fileID: 2236724924178455903}
-  - component: {fileID: 1868331808781973020}
   m_Layer: 0
   m_Name: "Gitterst\xE4be"
   m_TagString: Untagged
@@ -2472,7 +2020,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2489,34 +2037,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999998, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.04143418, z: -9.313224e-10}
---- !u!138 &2236724924178455903
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452708931649800892}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &1868331808781973020
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452708931649800892}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1553770732003075783
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,8 +2050,6 @@ GameObject:
   - component: {fileID: 7618419519593699025}
   - component: {fileID: 6969725308957597435}
   - component: {fileID: 6964305744071667317}
-  - component: {fileID: 1778668455542876776}
-  - component: {fileID: 8733912571050940033}
   m_Layer: 0
   m_Name: Zelle.013
   m_TagString: Untagged
@@ -2611,7 +2129,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2628,34 +2146,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00072629936, y: 0.00084458926, z: 0.011561694}
   m_Center: {x: -0.0073228795, y: -0.009190258, z: 0.00057865505}
---- !u!138 &1778668455542876776
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553770732003075783}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &8733912571050940033
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553770732003075783}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1603585791239294710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,8 +2159,6 @@ GameObject:
   - component: {fileID: 6856622492098780174}
   - component: {fileID: 1782025592829439852}
   - component: {fileID: 5956850027472219383}
-  - component: {fileID: 8807503002713544044}
-  - component: {fileID: 1244962391586625550}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.044"
   m_TagString: Untagged
@@ -2750,7 +2238,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2767,34 +2255,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.020000009, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.343322, z: -9.313224e-10}
---- !u!138 &8807503002713544044
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1603585791239294710}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &1244962391586625550
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1603585791239294710}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1707379625176816258
 GameObject:
   m_ObjectHideFlags: 0
@@ -2808,8 +2268,6 @@ GameObject:
   - component: {fileID: 8459876105794864063}
   - component: {fileID: 4253176311278226471}
   - component: {fileID: 82726020533377621}
-  - component: {fileID: 5037990081693657635}
-  - component: {fileID: 7362143990369133521}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.045"
   m_TagString: Untagged
@@ -2889,7 +2347,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2906,34 +2364,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.020000009, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.30045828, z: -9.313224e-10}
---- !u!138 &5037990081693657635
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707379625176816258}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &7362143990369133521
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707379625176816258}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1793825501129328050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2947,8 +2377,6 @@ GameObject:
   - component: {fileID: 6886282295104651456}
   - component: {fileID: 7956909662561914653}
   - component: {fileID: 5043811693101768269}
-  - component: {fileID: 4084500464614537854}
-  - component: {fileID: 7809441900348650279}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.029"
   m_TagString: Untagged
@@ -3028,7 +2456,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -3045,34 +2473,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999996, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.13233072, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &4084500464614537854
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793825501129328050}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &7809441900348650279
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793825501129328050}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1835911330257883534
 GameObject:
   m_ObjectHideFlags: 0
@@ -3086,8 +2486,6 @@ GameObject:
   - component: {fileID: 2897669764493959780}
   - component: {fileID: 7265403637352090987}
   - component: {fileID: 6011003789068295959}
-  - component: {fileID: 2011156655143845884}
-  - component: {fileID: 1043726602028682718}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.027"
   m_TagString: Untagged
@@ -3167,7 +2565,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -3184,34 +2582,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999996, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.085989885, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &2011156655143845884
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835911330257883534}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &1043726602028682718
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835911330257883534}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &1878652815319358713
 GameObject:
   m_ObjectHideFlags: 0
@@ -3225,8 +2595,6 @@ GameObject:
   - component: {fileID: 8046526739505288328}
   - component: {fileID: 7488043413461671125}
   - component: {fileID: 2561211008094057778}
-  - component: {fileID: 2551659938679440283}
-  - component: {fileID: 4949301290059588643}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.012"
   m_TagString: Untagged
@@ -3306,7 +2674,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -3323,34 +2691,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999996, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.085989885, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &2551659938679440283
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878652815319358713}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &4949301290059588643
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878652815319358713}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2000143225865230965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3364,8 +2704,6 @@ GameObject:
   - component: {fileID: 5667327301368381473}
   - component: {fileID: 5787667917117167752}
   - component: {fileID: 2376818065904575991}
-  - component: {fileID: 8715288214537415940}
-  - component: {fileID: 2987620199920721372}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.020"
   m_TagString: Untagged
@@ -3445,7 +2783,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -3462,34 +2800,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.39365172, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &8715288214537415940
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000143225865230965}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &2987620199920721372
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000143225865230965}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2316177723108773680
 GameObject:
   m_ObjectHideFlags: 0
@@ -3518,7 +2828,7 @@ Transform:
   m_GameObject: {fileID: 2316177723108773680}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -12.504705, y: 2.227854, z: 4.6257753}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.30000016, y: 0.3, z: 0.30000016}
   m_Children:
   - {fileID: 4748071059649042096}
   - {fileID: 5609936606016652415}
@@ -3638,8 +2948,6 @@ GameObject:
   - component: {fileID: 237951373957056167}
   - component: {fileID: 1131306413597356718}
   - component: {fileID: 144865117775733576}
-  - component: {fileID: 8798054230663844268}
-  - component: {fileID: 813714180247949526}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.026"
   m_TagString: Untagged
@@ -3719,7 +3027,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -3736,34 +3044,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01999998, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.51698416, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &8798054230663844268
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2370151432495538400}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &813714180247949526
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2370151432495538400}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2383860732569347530
 GameObject:
   m_ObjectHideFlags: 0
@@ -3777,8 +3057,6 @@ GameObject:
   - component: {fileID: 2234745231451171983}
   - component: {fileID: 2938166982182351674}
   - component: {fileID: 4026275590883613588}
-  - component: {fileID: 4816339566601377618}
-  - component: {fileID: 3473310255632309254}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.032"
   m_TagString: Untagged
@@ -3858,7 +3136,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -3875,34 +3153,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.30342025, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &4816339566601377618
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2383860732569347530}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &3473310255632309254
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2383860732569347530}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &2624558837634231365
 GameObject:
   m_ObjectHideFlags: 0
@@ -3916,8 +3166,6 @@ GameObject:
   - component: {fileID: 4196615533345024594}
   - component: {fileID: 6959586752635913142}
   - component: {fileID: 2225081709488239993}
-  - component: {fileID: 6851335516451941857}
-  - component: {fileID: 6138230826833887081}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.046"
   m_TagString: Untagged
@@ -3997,7 +3245,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4014,34 +3262,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.020000009, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.3896628, z: -9.313224e-10}
---- !u!138 &6851335516451941857
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2624558837634231365}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &6138230826833887081
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2624558837634231365}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3517628504931002514
 GameObject:
   m_ObjectHideFlags: 0
@@ -4055,8 +3275,6 @@ GameObject:
   - component: {fileID: 2913263810138915131}
   - component: {fileID: 9173222844394687719}
   - component: {fileID: 836732103824779369}
-  - component: {fileID: 4707781691609627518}
-  - component: {fileID: 6284397544244200768}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.053"
   m_TagString: Untagged
@@ -4136,7 +3354,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4153,34 +3371,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999998, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: 0.04389074, z: -9.313224e-10}
---- !u!138 &4707781691609627518
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3517628504931002514}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &6284397544244200768
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3517628504931002514}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3522156875431235577
 GameObject:
   m_ObjectHideFlags: 0
@@ -4194,8 +3384,6 @@ GameObject:
   - component: {fileID: 6070952840477652905}
   - component: {fileID: 5109034504232272842}
   - component: {fileID: 6852344466854077426}
-  - component: {fileID: 4661306813414786709}
-  - component: {fileID: 8791069197164566255}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.008"
   m_TagString: Untagged
@@ -4275,7 +3463,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4292,34 +3480,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000004, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.56485355, y: -0.38091952, z: -9.313224e-10}
---- !u!138 &4661306813414786709
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3522156875431235577}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &8791069197164566255
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3522156875431235577}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3595219043661139833
 GameObject:
   m_ObjectHideFlags: 0
@@ -4333,8 +3493,6 @@ GameObject:
   - component: {fileID: 4732139012732922226}
   - component: {fileID: 734795044984019218}
   - component: {fileID: 3025519450761369588}
-  - component: {fileID: 2808500138755428016}
-  - component: {fileID: 2027464925962703971}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.001"
   m_TagString: Untagged
@@ -4414,7 +3572,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4431,34 +3589,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999998, z: 0.019999996}
   m_Center: {x: -0.00000047683716, y: 0.00000011920929, z: 0}
---- !u!138 &2808500138755428016
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3595219043661139833}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &2027464925962703971
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3595219043661139833}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3750485146133360412
 GameObject:
   m_ObjectHideFlags: 0
@@ -4472,8 +3602,6 @@ GameObject:
   - component: {fileID: 786354386146635819}
   - component: {fileID: 3850075116162448088}
   - component: {fileID: 3672640339583544682}
-  - component: {fileID: 2066915203683269838}
-  - component: {fileID: 6476662145063748031}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.052"
   m_TagString: Untagged
@@ -4553,7 +3681,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4570,34 +3698,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999994, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: 0.13309528, z: -9.313224e-10}
---- !u!138 &2066915203683269838
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3750485146133360412}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &6476662145063748031
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3750485146133360412}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &3870274688442338620
 GameObject:
   m_ObjectHideFlags: 0
@@ -4611,8 +3711,6 @@ GameObject:
   - component: {fileID: 1521421176681772784}
   - component: {fileID: 3558747715263289418}
   - component: {fileID: 5921954807629972206}
-  - component: {fileID: 8222371546621314664}
-  - component: {fileID: 3911598196558349944}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.037"
   m_TagString: Untagged
@@ -4692,7 +3790,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4709,34 +3807,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.47554988, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &8222371546621314664
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3870274688442338620}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &3911598196558349944
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3870274688442338620}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &4212719836384488716
 GameObject:
   m_ObjectHideFlags: 0
@@ -4829,7 +3899,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4859,8 +3929,6 @@ GameObject:
   - component: {fileID: 3237647137919541101}
   - component: {fileID: 7044654641018282672}
   - component: {fileID: 421305764822210377}
-  - component: {fileID: 2714440933602223157}
-  - component: {fileID: 818411580282385976}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.016"
   m_TagString: Untagged
@@ -4940,7 +4008,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4957,34 +4025,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999996, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.21765563, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &2714440933602223157
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4600579616059248121}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &818411580282385976
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4600579616059248121}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &4891017865973213873
 GameObject:
   m_ObjectHideFlags: 0
@@ -4998,8 +4038,6 @@ GameObject:
   - component: {fileID: 6987423643571024223}
   - component: {fileID: 4028676048328564570}
   - component: {fileID: 4307188411542077712}
-  - component: {fileID: 7252906459362492264}
-  - component: {fileID: 8821756788726201802}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.043"
   m_TagString: Untagged
@@ -5079,7 +4117,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -5096,34 +4134,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999994, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.25755742, z: -9.313224e-10}
---- !u!138 &7252906459362492264
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4891017865973213873}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &8821756788726201802
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4891017865973213873}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5021463275031804894
 GameObject:
   m_ObjectHideFlags: 0
@@ -5137,8 +4147,6 @@ GameObject:
   - component: {fileID: 2374104358358752575}
   - component: {fileID: 4458620239691717785}
   - component: {fileID: 8870532182815403977}
-  - component: {fileID: 9198265691169558728}
-  - component: {fileID: 1963916103874317128}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.034"
   m_TagString: Untagged
@@ -5218,7 +4226,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -5235,34 +4243,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.34976107, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &9198265691169558728
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5021463275031804894}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &1963916103874317128
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5021463275031804894}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5566162364416873160
 GameObject:
   m_ObjectHideFlags: 0
@@ -5276,8 +4256,6 @@ GameObject:
   - component: {fileID: 4841615119672737411}
   - component: {fileID: 5149780388857862757}
   - component: {fileID: 7852839086979468478}
-  - component: {fileID: 5316957607273744868}
-  - component: {fileID: 626245659379923331}
   m_Layer: 0
   m_Name: Zelle.012
   m_TagString: Untagged
@@ -5357,7 +4335,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -5374,34 +4352,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00072629936, y: 0.00076211046, z: 0.011561694}
   m_Center: {x: -0.0073228795, y: 0.01000639, z: 0.00057865505}
---- !u!138 &5316957607273744868
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5566162364416873160}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &626245659379923331
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5566162364416873160}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5719962387736556256
 GameObject:
   m_ObjectHideFlags: 0
@@ -5415,8 +4365,6 @@ GameObject:
   - component: {fileID: 2898047893037209861}
   - component: {fileID: 4760321696540968600}
   - component: {fileID: 5422427670309206395}
-  - component: {fileID: 4440600074352540087}
-  - component: {fileID: 5517732606905019191}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.050"
   m_TagString: Untagged
@@ -5496,7 +4444,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -5513,34 +4461,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.020000039, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.5568859, z: -9.313224e-10}
---- !u!138 &4440600074352540087
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5719962387736556256}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &5517732606905019191
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5719962387736556256}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5820662166931158963
 GameObject:
   m_ObjectHideFlags: 0
@@ -5554,8 +4474,6 @@ GameObject:
   - component: {fileID: 4083709833111151755}
   - component: {fileID: 5933151713525263817}
   - component: {fileID: 7922951201738091761}
-  - component: {fileID: 8175457427604687783}
-  - component: {fileID: 2490893958797685564}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.019"
   m_TagString: Untagged
@@ -5635,7 +4553,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -5652,34 +4570,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.34976107, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &8175457427604687783
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5820662166931158963}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &2490893958797685564
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5820662166931158963}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &5854529548398668595
 GameObject:
   m_ObjectHideFlags: 0
@@ -5785,8 +4675,6 @@ GameObject:
   - component: {fileID: 6255763095762577224}
   - component: {fileID: 1901991758570502938}
   - component: {fileID: 1854546701598279637}
-  - component: {fileID: 2860199209814568911}
-  - component: {fileID: 7050080286161596956}
   m_Layer: 0
   m_Name: Zelle.010
   m_TagString: Untagged
@@ -5866,7 +4754,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -5883,34 +4771,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00067604985, y: 0.00084458926, z: 0.011561694}
   m_Center: {x: 0.006903143, y: -0.009190258, z: 0.00057865505}
---- !u!138 &2860199209814568911
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6179549926921125203}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &7050080286161596956
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6179549926921125203}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6228302844922890189
 GameObject:
   m_ObjectHideFlags: 0
@@ -5924,8 +4784,6 @@ GameObject:
   - component: {fileID: 9135468872399737477}
   - component: {fileID: 3300650177970784358}
   - component: {fileID: 5668836898014696132}
-  - component: {fileID: 1581635779146929248}
-  - component: {fileID: 6987876498347145855}
   m_Layer: 0
   m_Name: "T\xFCr"
   m_TagString: Untagged
@@ -6008,7 +4866,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -6025,34 +4883,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0006064875, y: 0.0054617585, z: 0.011561695}
   m_Center: {x: 0.0069379243, y: 0.00040057075, z: 0.00057865324}
---- !u!138 &1581635779146929248
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6228302844922890189}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &6987876498347145855
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6228302844922890189}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6338001140571910427
 GameObject:
   m_ObjectHideFlags: 0
@@ -6066,8 +4896,6 @@ GameObject:
   - component: {fileID: 8039326019330508334}
   - component: {fileID: 2838828974132318806}
   - component: {fileID: 3818791037433947791}
-  - component: {fileID: 4509169259803076558}
-  - component: {fileID: 8426134081991718186}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.047"
   m_TagString: Untagged
@@ -6147,7 +4975,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -6164,34 +4992,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999979, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.43355343, z: -9.313224e-10}
---- !u!138 &4509169259803076558
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6338001140571910427}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &8426134081991718186
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6338001140571910427}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6559971055934109591
 GameObject:
   m_ObjectHideFlags: 0
@@ -6205,8 +5005,6 @@ GameObject:
   - component: {fileID: 8182613916778852946}
   - component: {fileID: 6881098411348532487}
   - component: {fileID: 4346490280777060779}
-  - component: {fileID: 5812177532006181736}
-  - component: {fileID: 5591412416942998636}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.041"
   m_TagString: Untagged
@@ -6286,7 +5084,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -6303,34 +5101,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.020000009, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.17223251, z: -9.313224e-10}
---- !u!138 &5812177532006181736
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6559971055934109591}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &5591412416942998636
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6559971055934109591}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &6826214226733018612
 GameObject:
   m_ObjectHideFlags: 0
@@ -6344,8 +5114,6 @@ GameObject:
   - component: {fileID: 7221574322607824945}
   - component: {fileID: 3482891339870894210}
   - component: {fileID: 7695307336758519559}
-  - component: {fileID: 8029026768720629394}
-  - component: {fileID: 850397649733775216}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.009"
   m_TagString: Untagged
@@ -6425,7 +5193,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -6442,34 +5210,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000004, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.56485355, y: -0.47012407, z: -9.313224e-10}
---- !u!138 &8029026768720629394
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6826214226733018612}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &850397649733775216
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6826214226733018612}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7089744351308933769
 GameObject:
   m_ObjectHideFlags: 0
@@ -6483,8 +5223,6 @@ GameObject:
   - component: {fileID: 4652581057938240299}
   - component: {fileID: 2413073637060693541}
   - component: {fileID: 7553724927183108909}
-  - component: {fileID: 6233571644948352838}
-  - component: {fileID: 2399162412374837893}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.031"
   m_TagString: Untagged
@@ -6564,7 +5302,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -6581,34 +5319,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999996, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.21765563, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &6233571644948352838
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7089744351308933769}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &2399162412374837893
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7089744351308933769}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7115390206355898226
 GameObject:
   m_ObjectHideFlags: 0
@@ -6622,8 +5332,6 @@ GameObject:
   - component: {fileID: 3370512106809097085}
   - component: {fileID: 1061379349702232567}
   - component: {fileID: 3415211325646210099}
-  - component: {fileID: 7200094465839344637}
-  - component: {fileID: 9002611190217238958}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.048"
   m_TagString: Untagged
@@ -6703,7 +5411,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -6720,34 +5428,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999979, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.47498772, z: -9.313224e-10}
---- !u!138 &7200094465839344637
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7115390206355898226}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &9002611190217238958
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7115390206355898226}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7250690173686529419
 GameObject:
   m_ObjectHideFlags: 0
@@ -6761,8 +5441,6 @@ GameObject:
   - component: {fileID: 6574427531848623121}
   - component: {fileID: 1719989865208012593}
   - component: {fileID: 5022219904990790720}
-  - component: {fileID: 8262378826276511676}
-  - component: {fileID: 1647580752731650301}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.023"
   m_TagString: Untagged
@@ -6842,7 +5520,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -6859,34 +5537,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.39365172, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &8262378826276511676
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7250690173686529419}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &1647580752731650301
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7250690173686529419}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7284780745614278418
 GameObject:
   m_ObjectHideFlags: 0
@@ -6900,8 +5550,6 @@ GameObject:
   - component: {fileID: 1554938371329720141}
   - component: {fileID: 7912637320826890103}
   - component: {fileID: 4012862776246610508}
-  - component: {fileID: 7732146484133865899}
-  - component: {fileID: 5890527240086821521}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.024"
   m_TagString: Untagged
@@ -6981,7 +5629,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -6998,34 +5646,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01999998, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.43508595, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &7732146484133865899
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7284780745614278418}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &5890527240086821521
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7284780745614278418}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7329030258587588829
 GameObject:
   m_ObjectHideFlags: 0
@@ -7039,8 +5659,6 @@ GameObject:
   - component: {fileID: 48229918009631169}
   - component: {fileID: 3990112820199291122}
   - component: {fileID: 9062985415921137176}
-  - component: {fileID: 1360869657621944290}
-  - component: {fileID: 3415592955270309121}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.014"
   m_TagString: Untagged
@@ -7120,7 +5738,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -7137,34 +5755,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999996, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.13233072, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &1360869657621944290
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7329030258587588829}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &3415592955270309121
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7329030258587588829}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7439756032028139942
 GameObject:
   m_ObjectHideFlags: 0
@@ -7178,8 +5768,6 @@ GameObject:
   - component: {fileID: 5986106700590226187}
   - component: {fileID: 6473084470320121086}
   - component: {fileID: 1417185062602834245}
-  - component: {fileID: 2227123635369347969}
-  - component: {fileID: 1213121665521023303}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.033"
   m_TagString: Untagged
@@ -7259,7 +5847,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -7276,34 +5864,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000001, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.26055646, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &2227123635369347969
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7439756032028139942}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &1213121665521023303
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7439756032028139942}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7529244982125097879
 GameObject:
   m_ObjectHideFlags: 0
@@ -7317,8 +5877,6 @@ GameObject:
   - component: {fileID: 1964243868105761119}
   - component: {fileID: 131511040577462094}
   - component: {fileID: 5992568211994255993}
-  - component: {fileID: 5184493438962501626}
-  - component: {fileID: 954772124685065783}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.021"
   m_TagString: Untagged
@@ -7398,7 +5956,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -7415,34 +5973,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01999998, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.43508595, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &5184493438962501626
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7529244982125097879}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &954772124685065783
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7529244982125097879}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7593333862376549853
 GameObject:
   m_ObjectHideFlags: 0
@@ -7456,8 +5986,6 @@ GameObject:
   - component: {fileID: 4358025648798357325}
   - component: {fileID: 5548568487839505631}
   - component: {fileID: 6907099835858471820}
-  - component: {fileID: 4159747773384798086}
-  - component: {fileID: 4770692933473522395}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.003"
   m_TagString: Untagged
@@ -7537,7 +6065,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -7554,34 +6082,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000004, y: 0.019999994, z: 0.019999994}
   m_Center: {x: 0.56485355, y: 0.11933198, z: -9.313224e-10}
---- !u!138 &4159747773384798086
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7593333862376549853}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &4770692933473522395
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7593333862376549853}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7726630165098789004
 GameObject:
   m_ObjectHideFlags: 0
@@ -7595,8 +6095,6 @@ GameObject:
   - component: {fileID: 8215903324628062692}
   - component: {fileID: 5263881637547031973}
   - component: {fileID: 7375129607611454554}
-  - component: {fileID: 8320361388392150719}
-  - component: {fileID: 4594825204266206002}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.007"
   m_TagString: Untagged
@@ -7676,7 +6174,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -7693,34 +6191,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000004, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.56485355, y: -0.42378324, z: -9.313224e-10}
---- !u!138 &8320361388392150719
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7726630165098789004}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &4594825204266206002
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7726630165098789004}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7819536733157138312
 GameObject:
   m_ObjectHideFlags: 0
@@ -7734,8 +6204,6 @@ GameObject:
   - component: {fileID: 1107317456223008435}
   - component: {fileID: 9036347179874473824}
   - component: {fileID: 20246943076391129}
-  - component: {fileID: 411664466182167810}
-  - component: {fileID: 7340170785708511833}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.015"
   m_TagString: Untagged
@@ -7815,7 +6283,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -7832,34 +6300,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999996, y: 0.020000009, z: 0.019999994}
   m_Center: {x: 0.17622134, y: 0.16271691, z: -9.313224e-10}
---- !u!138 &411664466182167810
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7819536733157138312}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &7340170785708511833
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7819536733157138312}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8061731709738989107
 GameObject:
   m_ObjectHideFlags: 0
@@ -7873,8 +6313,6 @@ GameObject:
   - component: {fileID: 6241159608157829624}
   - component: {fileID: 7066996667403620870}
   - component: {fileID: 7631990710448561212}
-  - component: {fileID: 8639035681887767164}
-  - component: {fileID: 6746174960861740847}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.039"
   m_TagString: Untagged
@@ -7954,7 +6392,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -7971,34 +6409,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999994, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.12589167, z: -9.313224e-10}
---- !u!138 &8639035681887767164
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8061731709738989107}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &6746174960861740847
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8061731709738989107}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8221499617166787281
 GameObject:
   m_ObjectHideFlags: 0
@@ -8012,8 +6422,6 @@ GameObject:
   - component: {fileID: 9084941995490308747}
   - component: {fileID: 7407994941225591218}
   - component: {fileID: 8755866415879074115}
-  - component: {fileID: 5120069599921711445}
-  - component: {fileID: 4134410996693823434}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.036"
   m_TagString: Untagged
@@ -8093,7 +6501,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -8110,34 +6518,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01999998, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.43508595, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &5120069599921711445
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8221499617166787281}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &4134410996693823434
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8221499617166787281}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8328820273641112321
 GameObject:
   m_ObjectHideFlags: 0
@@ -8151,8 +6531,6 @@ GameObject:
   - component: {fileID: 2984688608613868819}
   - component: {fileID: 400642892825735278}
   - component: {fileID: 5455402163151443719}
-  - component: {fileID: 7420493816325702798}
-  - component: {fileID: 2141840221808022463}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.042"
   m_TagString: Untagged
@@ -8232,7 +6610,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -8249,34 +6627,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999994, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: -0.21612313, z: -9.313224e-10}
---- !u!138 &7420493816325702798
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8328820273641112321}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &2141840221808022463
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8328820273641112321}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8370815618749564607
 GameObject:
   m_ObjectHideFlags: 0
@@ -8290,8 +6640,6 @@ GameObject:
   - component: {fileID: 4434044190948362840}
   - component: {fileID: 1964294363394893801}
   - component: {fileID: 6202420401713788810}
-  - component: {fileID: 4445061738544045869}
-  - component: {fileID: 2964313601877253690}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.006"
   m_TagString: Untagged
@@ -8371,7 +6719,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -8388,34 +6736,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02000004, y: 0.020000001, z: 0.019999994}
   m_Center: {x: 0.56485355, y: -0.055197474, z: -9.313224e-10}
---- !u!138 &4445061738544045869
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8370815618749564607}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &2964313601877253690
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8370815618749564607}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8392618676065699371
 GameObject:
   m_ObjectHideFlags: 0
@@ -8429,8 +6749,6 @@ GameObject:
   - component: {fileID: 5528572002461273429}
   - component: {fileID: 3475159953581896148}
   - component: {fileID: 7881684845967658717}
-  - component: {fileID: 4160759759287008279}
-  - component: {fileID: 7761518451006982251}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.038"
   m_TagString: Untagged
@@ -8510,7 +6828,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -8527,34 +6845,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01999998, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.51698416, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &4160759759287008279
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8392618676065699371}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &7761518451006982251
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8392618676065699371}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &8987379517600375718
 GameObject:
   m_ObjectHideFlags: 0
@@ -8568,8 +6858,6 @@ GameObject:
   - component: {fileID: 4100468656715384851}
   - component: {fileID: 5064895855027727792}
   - component: {fileID: 1240412984096294173}
-  - component: {fileID: 7398538566894234510}
-  - component: {fileID: 7316260532884616016}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.051"
   m_TagString: Untagged
@@ -8649,7 +6937,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -8666,34 +6954,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999998, y: 0.019999994, z: 0.019999994}
   m_Center: {x: -0.00000047683716, y: 0.09023157, z: -9.313224e-10}
---- !u!138 &7398538566894234510
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8987379517600375718}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &7316260532884616016
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8987379517600375718}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &9150072057729505229
 GameObject:
   m_ObjectHideFlags: 0
@@ -8707,8 +6967,6 @@ GameObject:
   - component: {fileID: 6771845317390558270}
   - component: {fileID: 2100227474337274397}
   - component: {fileID: 9147308100885624172}
-  - component: {fileID: 4799546056529516151}
-  - component: {fileID: 3118175487511410288}
   m_Layer: 0
   m_Name: "Gitterst\xE4be.030"
   m_TagString: Untagged
@@ -8788,7 +7046,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -8805,31 +7063,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019999996, y: 0.020000039, z: 0.019999994}
   m_Center: {x: 0.17622134, y: -0.59997696, z: -9.313224e-10}
---- !u!138 &4799546056529516151
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9150072057729505229}
-  m_ConnectedBody: {fileID: 5251508669842676598}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!138 &3118175487511410288
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9150072057729505229}
-  m_ConnectedBody: {fileID: 2738985282477738389}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1

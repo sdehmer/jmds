@@ -59,6 +59,8 @@ public class WandUnlockSpell : MonoBehaviour
                 {
                     enableEvent.Invoke();
                 }
+
+                this.enabled = false;
             }
 
         }

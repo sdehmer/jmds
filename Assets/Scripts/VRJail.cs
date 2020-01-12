@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class VRJail : MonoBehaviour
 {
+
+    public bool BarrierActive
+    {
+        get;
+        set;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,16 +28,15 @@ public class VRJail : MonoBehaviour
     {
         GameObject gameObject = other.gameObject;
 
-        if (gameObject.CompareTag("Hammer"))
+        if (gameObject.CompareTag("Hammer") && BarrierActive)
         {
             foreach(Transform child in this.transform)
             {
-                FixedJoint fixedJoint = child.GetComponent<FixedJoint>();
+                Rigidbody childBody = child.GetComponent<Rigidbody>();
 
-                if(fixedJoint != null)
+                if(childBody != null)
                 {
-                    fixedJoint.connectedBody = null;
-                    Destroy(fixedJoint);
+                    childBody.isKinematic = false;
                 }
             }
         }

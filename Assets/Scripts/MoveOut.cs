@@ -17,8 +17,13 @@ public class MoveOut : MonoBehaviour
     Shader shaderDefault;
     Shader shaderHighlight;
 
+
+    private SphereCollider sphereCollider;
+
+
     private void Start()
     {
+        sphereCollider = this.GetComponent<SphereCollider>();
         shaderDefault = this.GetComponent<Renderer>().material.shader;
         shaderHighlight = Shader.Find("Custom/Silhouetted Diffuse");
     }
@@ -27,6 +32,7 @@ public class MoveOut : MonoBehaviour
     {
         if (MoveActive)
         {
+            sphereCollider.enabled = false;
             this.GetComponent<Rigidbody>().useGravity = false;
             this.GetComponent<Renderer>().material.shader = shaderHighlight;
             // Move our position a step closer to the target.
@@ -36,6 +42,7 @@ public class MoveOut : MonoBehaviour
             // Check if the position of the cube and sphere are approximately equal.
             if (Vector3.Distance(transform.position, target.position) < 0.1f)
             {
+                sphereCollider.enabled = true;
                 this.GetComponent<Renderer>().material.shader = shaderDefault;
                 this.GetComponent<Rigidbody>().useGravity = true;
                 this.MoveActive = false;

@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class VRPlanet : MonoBehaviour
 {
 
     public string TAG_Planet;
+
+    public UnityEvent planetAdded;
 
 
     private void OnTriggerEnter(Collider other)
@@ -23,6 +26,8 @@ public class VRPlanet : MonoBehaviour
 
     private void UngrabbAndDestroy(GameObject gameObject)
     {
+        planetAdded.Invoke();
+
         OVRGrabbable grabbable = gameObject.GetComponent<OVRGrabbable>();
         MeshRenderer renderer = gameObject.GetComponent<MeshRenderer>();
 
