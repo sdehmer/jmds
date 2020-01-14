@@ -6,20 +6,15 @@ public class VRGlobe : MonoBehaviour
 {
 
     public GameObject earth;
+    private AudioSource audioSource;
 
 
-
-    // Start is called before the first frame update
+    
     void Start()
     {
-        
+        audioSource = this.GetComponent<AudioSource>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
 
     private void OnTriggerEnter(Collider other)
@@ -30,6 +25,8 @@ public class VRGlobe : MonoBehaviour
         {
             FixedJoint fixedJoint = earth.GetComponent<FixedJoint>();
             fixedJoint.connectedBody = null;
+
+            audioSource.Play();
 
             Debug.Log("DESTROY");
 
