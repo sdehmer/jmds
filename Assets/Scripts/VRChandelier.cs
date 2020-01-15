@@ -18,6 +18,8 @@ public class VRChandelier : MonoBehaviour
     {
         ++count;
 
+        Debug.Log(count);
+
         if (count == 7)
         {
             rotation.Invoke();

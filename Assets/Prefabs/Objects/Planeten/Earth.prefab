@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 6346017469552441339}
   - component: {fileID: 2370383371788075576}
   - component: {fileID: 2370383371788075577}
-  - component: {fileID: 2370383371788075572}
   - component: {fileID: 2370383371788075579}
   m_Layer: 14
   m_Name: Earth
@@ -111,20 +110,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.010000001
   m_Center: {x: -0.000000017229468, y: -0.00000012107193, z: -4.3013392e-23}
---- !u!138 &2370383371788075572
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4334498380947478086}
-  m_ConnectedBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!114 &2370383371788075579
 MonoBehaviour:
   m_ObjectHideFlags: 0
